@@ -78,6 +78,15 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'pgsql-heroku' => [
+            'url' => env('DATABASE_URL'),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
