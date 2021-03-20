@@ -1,4 +1,4 @@
-name: Build & Test Laravel
+name: Laravel
 on:
   push:
     branches: [ main ]
@@ -20,6 +20,7 @@ jobs:
         run: chmod -R 777 storage bootstrap/cache
   tests:
     runs-on: ubuntu-latest
+    needs: setup
     env:
       DB_HOST: localhost
     services:
