@@ -11,9 +11,10 @@ jobs:
     env:
       DB_HOST: localhost
     services:
-      postgres:
+      pgsql:
         image: postgres
         env:
+          POSTGRES_USER: root
           POSTGRES_PASSWORD: secret
         options: >-
           --health-cmd pg_isready
