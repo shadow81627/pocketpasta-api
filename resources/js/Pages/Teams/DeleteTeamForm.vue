@@ -14,7 +14,7 @@
             </div>
 
             <div class="mt-5">
-                <jet-danger-button @click.native="confirmTeamDeletion">
+                <jet-danger-button @click="confirmTeamDeletion">
                     Delete Team
                 </jet-danger-button>
             </div>
@@ -30,11 +30,11 @@
                 </template>
 
                 <template #footer>
-                    <jet-secondary-button @click.native="confirmingTeamDeletion = false">
-                        Nevermind
+                    <jet-secondary-button @click="confirmingTeamDeletion = false">
+                        Cancel
                     </jet-secondary-button>
 
-                    <jet-danger-button class="ml-2" @click.native="deleteTeam" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                    <jet-danger-button class="ml-2" @click="deleteTeam" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                         Delete Team
                     </jet-danger-button>
                 </template>
@@ -45,7 +45,6 @@
 
 <script>
     import JetActionSection from '@/Jetstream/ActionSection'
-    import JetButton from '@/Jetstream/Button'
     import JetConfirmationModal from '@/Jetstream/ConfirmationModal'
     import JetDangerButton from '@/Jetstream/DangerButton'
     import JetSecondaryButton from '@/Jetstream/SecondaryButton'
@@ -55,7 +54,6 @@
 
         components: {
             JetActionSection,
-            JetButton,
             JetConfirmationModal,
             JetDangerButton,
             JetSecondaryButton,
@@ -66,11 +64,7 @@
                 confirmingTeamDeletion: false,
                 deleting: false,
 
-                form: this.$inertia.form({
-                    //
-                }, {
-                    bag: 'deleteTeam'
-                })
+                form: this.$inertia.form()
             }
         },
 
@@ -81,7 +75,7 @@
 
             deleteTeam() {
                 this.form.delete(route('teams.destroy', this.team), {
-                    preserveScroll: true
+                    errorBag: 'deleteTeam'
                 });
             },
         },

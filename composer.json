@@ -12,12 +12,12 @@
         "fideloper/proxy": "4.4.1",
         "fruitcake/laravel-cors": "2.0.3",
         "guzzlehttp/guzzle": "7.2.0",
-        "inertiajs/inertia-laravel": "0.2.15",
+        "inertiajs/inertia-laravel": "^0.3.5",
         "laravel/framework": "8.20.1",
-        "laravel/jetstream": "1.6.5",
-        "laravel/sanctum": "2.8.2",
+        "laravel/jetstream": "^2.2",
+        "laravel/sanctum": "^2.6",
         "laravel/tinker": "2.5.0",
-        "tightenco/ziggy": "0.9.4"
+        "tightenco/ziggy": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "2.5.8",
