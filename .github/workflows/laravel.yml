@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      DB_HOST: localhost
+      DB_HOST: pgsql
       DB_DATABASE: testing
       DB_USERNAME: testing
       DB_PASSWORD: testing
