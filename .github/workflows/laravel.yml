@@ -14,8 +14,10 @@ jobs:
       pgsql:
         image: postgres
         env:
-          POSTGRES_USER: root
-          POSTGRES_PASSWORD: secret
+          PGPASSWORD: '${DB_PASSWORD:-secret}'
+          POSTGRES_DB: '${DB_DATABASE}'
+          POSTGRES_USER: '${DB_USERNAME}'
+          POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
