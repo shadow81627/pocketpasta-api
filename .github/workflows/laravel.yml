@@ -9,18 +9,15 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      DB_HOST: pgsql
-      DB_DATABASE: testing
-      DB_USERNAME: testing
-      DB_PASSWORD: testing
+      DB_HOST: localhost
+      DB_DATABASE: postgres
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
     services:
-      pgsql:
+      postgres:
         image: postgres
         env:
-          PGPASSWORD: '${DB_PASSWORD}'
-          POSTGRES_DB: '${DB_DATABASE}'
-          POSTGRES_USER: '${DB_USERNAME}'
-          POSTGRES_PASSWORD: '${DB_PASSWORD}'
+          POSTGRES_PASSWORD: postgres
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
