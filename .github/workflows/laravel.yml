@@ -1,3 +1,4 @@
+name: Build & Test Laravel
 on:
   push:
     branches: [ main ]
