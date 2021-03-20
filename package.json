@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@inertiajs/inertia": "0.8.5",
-        "@inertiajs/inertia-vue": "0.2.4",
+        "@inertiajs/inertia-vue": "0.5.5",
         "@semantic-release/changelog": "5.0.1",
         "@semantic-release/git": "9.0.0",
         "@tailwindcss/ui": "0.6.2",
