@@ -1,5 +1,11 @@
 # Releases
 
+## [1.0.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.0...v1.0.1) (2021-03-21)
+
+### Bug Fixes
+
+- **deps:** update dependency inertiajs/inertia-laravel to v0.4.0 ([#8](https://github.com/shadow81627/pocketpasta-api/issues/8)) ([68ba61f](https://github.com/shadow81627/pocketpasta-api/commit/68ba61fedf001bb6a51676a4a7001574691d6a7e))
+
 ## 1.0.0 (2021-03-21)
 
 ### Bug Fixes
