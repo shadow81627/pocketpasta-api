@@ -1,5 +1,19 @@
 {
+    "name": "pocketpasta-api",
+    "version": "0.0.0",
+    "description": "Eat spagetti to forgetti your regretti",
+    "author": {
+        "name": "Damien Robinson",
+        "email": "damien.robinson@pocketpasta.com",
+        "url": "https://pocketpasta.com"
+    },
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shadow81627/pocketpasta-api.git"
+    },
+    "bugs": "https://github.com/shadow81627/pocketpasta-api/issues",
+    "homepage": "https://pocketpasta.com",
     "scripts": {
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
