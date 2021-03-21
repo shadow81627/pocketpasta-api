@@ -2,6 +2,7 @@ const readFileSync = require('fs').readFileSync;
 const resolve = require(`path`).resolve;
 
 module.exports = {
+  branches: ['main'],
   generateNotes: {
     preset: 'angular',
     writerOpts: {
