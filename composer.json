@@ -17,7 +17,7 @@
         "laravel/jetstream": "1.6.5",
         "laravel/sanctum": "2.9.1",
         "laravel/tinker": "2.5.0",
-        "tightenco/ziggy": "0.9.4"
+        "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
         "facade/ignition": "2.5.14",
