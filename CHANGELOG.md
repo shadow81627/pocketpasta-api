@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.1...v1.0.2) (2021-03-21)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/sanctum to v2.9.1 ([#13](https://github.com/shadow81627/pocketpasta-api/issues/13)) ([3cc9712](https://github.com/shadow81627/pocketpasta-api/commit/3cc971211655598d846f0675c6fc38a39007db66))
+- **deps:** update dependency tightenco/ziggy to v1 ([#23](https://github.com/shadow81627/pocketpasta-api/issues/23)) ([789cc8a](https://github.com/shadow81627/pocketpasta-api/commit/789cc8a05e084bb181a73fe12351a0077ad2df59))
+
 ## [1.0.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.0...v1.0.1) (2021-03-21)
 
 ### Bug Fixes
