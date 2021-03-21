@@ -15,7 +15,7 @@
         "inertiajs/inertia-laravel": "0.4.0",
         "laravel/framework": "8.20.1",
         "laravel/jetstream": "1.6.5",
-        "laravel/sanctum": "2.8.2",
+        "laravel/sanctum": "2.9.1",
         "laravel/tinker": "2.5.0",
         "tightenco/ziggy": "0.9.4"
     },
