@@ -16,7 +16,7 @@
         "laravel/framework": "8.33.1",
         "laravel/jetstream": "1.6.6",
         "laravel/sanctum": "2.9.1",
-        "laravel/tinker": "2.5.0",
+        "laravel/tinker": "2.6.1",
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
