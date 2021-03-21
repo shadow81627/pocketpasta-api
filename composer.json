@@ -17,6 +17,7 @@
         "laravel/jetstream": "2.2.3",
         "laravel/sanctum": "2.9.1",
         "laravel/tinker": "2.6.1",
+        "sentry/sentry-laravel": "2.4",
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
