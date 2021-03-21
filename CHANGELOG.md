@@ -1,5 +1,11 @@
 # Releases
 
+## [1.0.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.3...v1.0.4) (2021-03-21)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/tinker to v2.6.1 ([#14](https://github.com/shadow81627/pocketpasta-api/issues/14)) ([d19bde5](https://github.com/shadow81627/pocketpasta-api/commit/d19bde5b6009aadbc0477f41000a5726498df692))
+
 ## [1.0.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.2...v1.0.3) (2021-03-21)
 
 ### Bug Fixes
