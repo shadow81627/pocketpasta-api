@@ -5,12 +5,12 @@
         </template>
 
         <template #description>
-            Manage and logout your active sessions on other browsers and devices.
+            Manage and log out your active sessions on other browsers and devices.
         </template>
 
         <template #content>
             <div class="max-w-xl text-sm text-gray-600">
-                If necessary, you may logout of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.
+                If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.
             </div>
 
             <!-- Other Browser Sessions -->
@@ -44,8 +44,8 @@
             </div>
 
             <div class="flex items-center mt-5">
-                <jet-button @click.native="confirmLogout">
-                    Logout Other Browser Sessions
+                <jet-button @click="confirmLogout">
+                    Log Out Other Browser Sessions
                 </jet-button>
 
                 <jet-action-message :on="form.recentlySuccessful" class="ml-3">
@@ -53,32 +53,32 @@
                 </jet-action-message>
             </div>
 
-            <!-- Logout Other Devices Confirmation Modal -->
-            <jet-dialog-modal :show="confirmingLogout" @close="confirmingLogout = false">
+            <!-- Log Out Other Devices Confirmation Modal -->
+            <jet-dialog-modal :show="confirmingLogout" @close="closeModal">
                 <template #title>
-                    Logout Other Browser Sessions
+                    Log Out Other Browser Sessions
                 </template>
 
                 <template #content>
-                    Please enter your password to confirm you would like to logout of your other browser sessions across all of your devices.
+                    Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices.
 
                     <div class="mt-4">
                         <jet-input type="password" class="mt-1 block w-3/4" placeholder="Password"
                                     ref="password"
                                     v-model="form.password"
-                                    @keyup.enter.native="logoutOtherBrowserSessions" />
+                                    @keyup.enter="logoutOtherBrowserSessions" />
 
-                        <jet-input-error :message="form.error('password')" class="mt-2" />
+                        <jet-input-error :message="form.errors.password" class="mt-2" />
                     </div>
                 </template>
 
                 <template #footer>
-                    <jet-secondary-button @click.native="confirmingLogout = false">
-                        Nevermind
+                    <jet-secondary-button @click="closeModal">
+                        Cancel
                     </jet-secondary-button>
 
-                    <jet-button class="ml-2" @click.native="logoutOtherBrowserSessions" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                        Logout Other Browser Sessions
+                    <jet-button class="ml-2" @click="logoutOtherBrowserSessions" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                        Log Out Other Browser Sessions
                     </jet-button>
                 </template>
             </jet-dialog-modal>
@@ -113,33 +113,31 @@
                 confirmingLogout: false,
 
                 form: this.$inertia.form({
-                    '_method': 'DELETE',
                     password: '',
-                }, {
-                    bag: 'logoutOtherBrowserSessions'
                 })
             }
         },
 
         methods: {
             confirmLogout() {
-                this.form.password = ''
-
                 this.confirmingLogout = true
 
-                setTimeout(() => {
-                    this.$refs.password.focus()
-                }, 250)
+                setTimeout(() => this.$refs.password.focus(), 250)
             },
 
             logoutOtherBrowserSessions() {
-                this.form.post(route('other-browser-sessions.destroy'), {
-                    preserveScroll: true
-                }).then(response => {
-                    if (! this.form.hasErrors()) {
-                        this.confirmingLogout = false
-                    }
+                this.form.delete(route('other-browser-sessions.destroy'), {
+                    preserveScroll: true,
+                    onSuccess: () => this.closeModal(),
+                    onError: () => this.$refs.password.focus(),
+                    onFinish: () => this.form.reset(),
                 })
+            },
+
+            closeModal() {
+                this.confirmingLogout = false
+
+                this.form.reset()
             },
         },
     }
