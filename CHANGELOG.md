@@ -1,5 +1,11 @@
 # Releases
 
+## [1.0.7](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.6...v1.0.7) (2021-03-24)
+
+### Bug Fixes
+
+- **deps:** update dependency guzzlehttp/guzzle to v7.3.0 ([b0d36e7](https://github.com/shadow81627/pocketpasta-api/commit/b0d36e7c919b46ddd37efc854d128a9d54bc39a5))
+
 ## [1.0.6](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.5...v1.0.6) (2021-03-23)
 
 ### Bug Fixes
