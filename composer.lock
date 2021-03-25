@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8d493808f5ef5207ffb3629da9c5c00",
+    "content-hash": "33b896b1e39919e1c6c657ebb4a6a4c8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3669,16 +3669,16 @@
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "2.4.0",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "30ff06f586666f51e5cae418beaed566729fb7bf"
+                "reference": "1bb0bcc240d25e72f3cf0321f3d6064f24dec504"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/30ff06f586666f51e5cae418beaed566729fb7bf",
-                "reference": "30ff06f586666f51e5cae418beaed566729fb7bf",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/1bb0bcc240d25e72f3cf0321f3d6064f24dec504",
+                "reference": "1bb0bcc240d25e72f3cf0321f3d6064f24dec504",
                 "shasum": ""
             },
             "require": {
@@ -3749,7 +3749,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-03-08T08:32:45+00:00"
+            "time": "2021-03-24T19:36:23+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
