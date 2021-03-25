@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a959d163ea8fc84e26687f3156808760",
+    "content-hash": "3b96fa72101af78aaae254c39165fd32",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1516,16 +1516,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.2.3",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "6e6e62ac1743a60296ba7265d0d91adee58b8401"
+                "reference": "d20cd9bf3267aaffa0359ad97be03b2f43532adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/6e6e62ac1743a60296ba7265d0d91adee58b8401",
-                "reference": "6e6e62ac1743a60296ba7265d0d91adee58b8401",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/d20cd9bf3267aaffa0359ad97be03b2f43532adf",
+                "reference": "d20cd9bf3267aaffa0359ad97be03b2f43532adf",
                 "shasum": ""
             },
             "require": {
@@ -1575,7 +1575,7 @@
                 "laravel",
                 "tailwind"
             ],
-            "time": "2021-03-02T16:30:16+00:00"
+            "time": "2021-03-23T17:23:07+00:00"
         },
         {
             "name": "laravel/sanctum",
