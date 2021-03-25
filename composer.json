@@ -14,7 +14,7 @@
         "guzzlehttp/guzzle": "7.3.0",
         "inertiajs/inertia-laravel": "0.4.0",
         "laravel/framework": "8.34.0",
-        "laravel/jetstream": "2.2.4",
+        "laravel/jetstream": "2.2.5",
         "laravel/sanctum": "2.9.2",
         "laravel/tinker": "2.6.1",
         "sentry/sentry-laravel": "2.4.2",
