@@ -21,7 +21,7 @@
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
-        "facade/ignition": "2.5.14",
+        "facade/ignition": "2.6.0",
         "fakerphp/faker": "1.13.0",
         "laravel/sail": "1.4.9",
         "mockery/mockery": "1.4.3",
