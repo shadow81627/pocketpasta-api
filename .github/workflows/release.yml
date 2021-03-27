@@ -7,6 +7,9 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-18.04
+    env:
+      SENTRY_ORG: pocketpasta
+      SENTRY_PROJECT: pocketpasta-api
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
@@ -23,3 +26,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
+      - name: Create Sentry release
+        uses: getsentry/action-release@v1
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+          SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
+        with:
+          environment: production
