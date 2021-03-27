@@ -7,9 +7,6 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-18.04
-    env:
-      SENTRY_ORG: pocketpasta
-      SENTRY_PROJECT: pocketpasta-api
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
