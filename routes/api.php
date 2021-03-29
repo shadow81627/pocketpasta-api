@@ -3,9 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Resources\ThingResource;
-use App\Http\Resources\ThingCollection;
-use App\Models\Thing;
+use LaravelJsonApi\Laravel\Http\Controllers\JsonApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,9 +20,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/things', function () {
-    return new ThingCollection(Thing::paginate());
-});
-Route::get('/things/{id}', function ($id) {
-    return new ThingResource(Thing::findOrFail($id));
-});
+JsonApiRoute::server('v1')
+    ->middleware('auth:sanctum')
+    ->prefix('v1')
+    ->namespace('Api\V1')
+    ->resources(function ($server) {
+        $server->resource('things', '\\' . JsonApiController::class);
+    });
