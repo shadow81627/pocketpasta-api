@@ -22,7 +22,7 @@
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
-        "facade/ignition": "2.6.0",
+        "facade/ignition": "2.7.0",
         "fakerphp/faker": "1.14.1",
         "laravel-json-api/testing": "1.0.0-beta.1",
         "laravel/sail": "1.4.9",
