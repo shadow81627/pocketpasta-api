@@ -1,5 +1,11 @@
 # Releases
 
+## [1.0.15](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.14...v1.0.15) (2021-03-30)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/framework to v8.35.0 ([a31066d](https://github.com/shadow81627/pocketpasta-api/commit/a31066da37897d7418a7c975303c3cc12c7ae9d8))
+
 ## [1.0.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.13...v1.0.14) (2021-03-30)
 
 ### Bug Fixes
