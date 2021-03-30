@@ -58,5 +58,4 @@ class ThingSchema extends Schema
     {
         return PagePagination::make();
     }
-
 }
