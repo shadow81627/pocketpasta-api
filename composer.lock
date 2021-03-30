@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4065b151f56849932990dcb97295ccb4",
+    "content-hash": "03a7963eb214868ad4310eb143435dfe",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7942,16 +7942,16 @@
         },
         {
             "name": "laravel-json-api/testing",
-            "version": "v1.0.0-alpha.1",
+            "version": "v1.0.0-beta.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/testing.git",
-                "reference": "a4873e73b2b8458c7eb4f3718c21592492f850d6"
+                "reference": "dc0425a12b06aff714035fa7ecc0095b7f1d4209"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/testing/zipball/a4873e73b2b8458c7eb4f3718c21592492f850d6",
-                "reference": "a4873e73b2b8458c7eb4f3718c21592492f850d6",
+                "url": "https://api.github.com/repos/laravel-json-api/testing/zipball/dc0425a12b06aff714035fa7ecc0095b7f1d4209",
+                "reference": "dc0425a12b06aff714035fa7ecc0095b7f1d4209",
                 "shasum": ""
             },
             "require": {
@@ -8001,9 +8001,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/testing/issues",
-                "source": "https://github.com/laravel-json-api/testing/tree/v1.0.0-alpha.1"
+                "source": "https://github.com/laravel-json-api/testing/tree/v1.0.0-beta.1"
             },
-            "time": "2021-01-25T15:20:30+00:00"
+            "time": "2021-03-30T09:48:05+00:00"
         },
         {
             "name": "laravel/sail",
