@@ -1,5 +1,11 @@
 # Releases
 
+## [1.0.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.13...v1.0.14) (2021-03-30)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel-json-api/laravel to v1.0.0-beta.1 ([968f2e9](https://github.com/shadow81627/pocketpasta-api/commit/968f2e954b682b4ea977eaa70f246922c852e8a8))
+
 ## [1.0.13](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.12...v1.0.13) (2021-03-30)
 
 ### Bug Fixes
