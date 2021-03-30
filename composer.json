@@ -13,7 +13,7 @@
         "fruitcake/laravel-cors": "2.0.3",
         "guzzlehttp/guzzle": "7.3.0",
         "inertiajs/inertia-laravel": "0.4.0",
-        "laravel-json-api/laravel": "^1.0@alpha",
+        "laravel-json-api/laravel": "1.0.0-alpha.5",
         "laravel/framework": "8.34.0",
         "laravel/jetstream": "2.2.5",
         "laravel/sanctum": "2.9.2",
@@ -24,7 +24,7 @@
     "require-dev": {
         "facade/ignition": "2.6.0",
         "fakerphp/faker": "1.13.0",
-        "laravel-json-api/testing": "^1.0@alpha",
+        "laravel-json-api/testing": "1.0.0-alpha.1",
         "laravel/sail": "1.4.9",
         "mockery/mockery": "1.4.3",
         "nunomaduro/collision": "5.3.0",
