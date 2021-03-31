@@ -16,7 +16,7 @@
         "laravel-json-api/laravel": "1.0.0-beta.1",
         "laravel/framework": "8.35.1",
         "laravel/jetstream": "2.3.0",
-        "laravel/sanctum": "2.9.2",
+        "laravel/sanctum": "2.9.3",
         "laravel/tinker": "2.6.1",
         "sentry/sentry-laravel": "2.4.2",
         "tightenco/ziggy": "1.0.5"
