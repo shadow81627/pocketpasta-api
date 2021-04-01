@@ -36,7 +36,7 @@
         "lodash": "4.17.21",
         "moment": "2.29.1",
         "portal-vue": "2.1.7",
-        "postcss-import": "14.0.0",
+        "postcss-import": "14.0.1",
         "prettier": "2.2.1",
         "@inertiajs/inertia-vue3": "0.3.7",
         "@inertiajs/progress": "0.2.4",
