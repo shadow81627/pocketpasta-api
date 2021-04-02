@@ -5,13 +5,11 @@ namespace App\Http\Controllers\Api\V1;
 use App\Http\Controllers\Controller;
 use LaravelJsonApi\Core\Responses\DataResponse;
 use LaravelJsonApi\Laravel\Http\Controllers\Actions;
-
 use App\Models\Thing;
 use App\JsonApi\V1\Things\ThingCollectionQuery;
 
 class ThingController extends Controller
 {
-
     use Actions\FetchMany;
     use Actions\FetchOne;
     use Actions\Store;
@@ -27,5 +25,4 @@ class ThingController extends Controller
     {
         return new DataResponse(Thing::search($request->search)->get());
     }
-
 }
