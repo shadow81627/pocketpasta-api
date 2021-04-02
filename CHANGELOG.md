@@ -1,5 +1,15 @@
 # Releases
 
+## [1.1.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.18...v1.1.0) (2021-04-02)
+
+### Bug Fixes
+
+- **api auth:** add ensure frontend requests are stateful middleware ([f58900b](https://github.com/shadow81627/pocketpasta-api/commit/f58900b91f50fcb5fffed40ee4bfc8b46fd0299e))
+
+### Features
+
+- **thing:** add scout search ([02e84f9](https://github.com/shadow81627/pocketpasta-api/commit/02e84f974256a969009841ed0e45d67b6865e534))
+
 ## [1.0.18](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.17...v1.0.18) (2021-03-31)
 
 ### Bug Fixes
