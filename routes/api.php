@@ -3,7 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-use LaravelJsonApi\Laravel\Http\Controllers\JsonApiController;
+use App\Models\Thing;
+use App\Http\Controllers\Api\V1\ThingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +24,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 JsonApiRoute::server('v1')
     ->middleware('auth:sanctum')
     ->prefix('v1')
-    ->namespace('Api\V1')
     ->resources(function ($server) {
-        $server->resource('things', '\\' . JsonApiController::class);
+        $server->resource('things', ThingController::class)->actions(function ($actions) {
+            $actions->get('search');
+        });
     });

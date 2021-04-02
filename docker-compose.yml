@@ -49,6 +49,14 @@ services:
     #         - '11211:11211'
     #     networks:
     #         - sail
+    meilisearch:
+      image: 'getmeili/meilisearch:latest'
+      ports:
+          - '${FORWARD_MEILISEARCH_PORT:-7700}:7700'
+      volumes:
+          - 'sailmeilisearch:/data.ms'
+      networks:
+          - sail
     mailhog:
         image: 'mailhog/mailhog:latest'
         ports:
@@ -63,4 +71,6 @@ volumes:
     sailpgsql:
        driver: local
     sailredis:
+        driver: local
+    sailmeilisearch:
         driver: local
