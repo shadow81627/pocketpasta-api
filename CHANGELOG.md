@@ -1,5 +1,24 @@
 # Releases
 
+## [1.2.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.1.0...v1.2.0) (2021-04-03)
+
+### Bug Fixes
+
+- **api:** import json api route ([6c47bab](https://github.com/shadow81627/pocketpasta-api/commit/6c47bab5d5327db6eefcb9816623db5b1f688fd4))
+- **thing:** allow create, update and delete ([516d55d](https://github.com/shadow81627/pocketpasta-api/commit/516d55d5da4025b803b4047db32b22878758b9ad))
+- **thing:** description nullable ([f33b79e](https://github.com/shadow81627/pocketpasta-api/commit/f33b79e4fab7a0587a4a9f846653c50588cf4346))
+- **thing:** remove route key since it seems to have an issue with json:api ([4f3f1ca](https://github.com/shadow81627/pocketpasta-api/commit/4f3f1ca03fa5894075d49769a4d620a01e688fa8))
+- **thing:** validate requests ([c5b19a8](https://github.com/shadow81627/pocketpasta-api/commit/c5b19a8b124157be384ecfa5def22c90ef022c87))
+
+### Features
+
+- add activity log ([d733865](https://github.com/shadow81627/pocketpasta-api/commit/d733865dfc3be8d8caa097af575b311cb02984dc))
+- **thing:** add slug ([ce24a56](https://github.com/shadow81627/pocketpasta-api/commit/ce24a565ff588da992feb25d979575d1217b001c))
+
+### Performance Improvements
+
+- **cache:** add cache headers ([b631384](https://github.com/shadow81627/pocketpasta-api/commit/b631384220629e706345024c37625b5c85474abd))
+
 ## [1.1.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.0.18...v1.1.0) (2021-04-02)
 
 ### Bug Fixes
