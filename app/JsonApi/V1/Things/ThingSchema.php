@@ -6,7 +6,8 @@ use App\Models\Thing;
 use LaravelJsonApi\Eloquent\Contracts\Paginator;
 use LaravelJsonApi\Eloquent\Fields\DateTime;
 use LaravelJsonApi\Eloquent\Fields\ID;
-use LaravelJsonApi\Eloquent\Filters\WhereIn;
+use LaravelJsonApi\Eloquent\Filters\Where;
+use LaravelJsonApi\Eloquent\Filters\WhereIdIn;
 use LaravelJsonApi\Eloquent\Pagination\PagePagination;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Schema;
@@ -30,6 +31,7 @@ class ThingSchema extends Schema
     {
         return [
             ID::make(),
+            Str::make('slug'),
             Str::make('name'),
             Str::make('description'),
             DateTime::make('createdAt')->sortable()->readOnly(),
@@ -45,7 +47,8 @@ class ThingSchema extends Schema
     public function filters(): array
     {
         return [
-            WhereIn::make('id', $this->idColumn()),
+            WhereIdIn::make($this),
+            Where::make('slug'),
         ];
     }
 

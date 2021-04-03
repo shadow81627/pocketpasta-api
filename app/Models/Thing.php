@@ -24,6 +24,7 @@ class Thing extends Model
      * @var array
      */
     protected $fillable = [
+        'slug',
         'name',
         'description',
     ];
@@ -39,13 +40,4 @@ class Thing extends Model
             ->doNotGenerateSlugsOnUpdate();
     }
 
-    /**
-     * Get the route key for the model.
-     *
-     * @return string
-     */
-    public function getRouteKeyName()
-    {
-        return 'slug';
-    }
 }
