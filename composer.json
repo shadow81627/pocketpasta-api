@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "algolia/algoliasearch-client-php": "^2.7",
+        "algolia/algoliasearch-client-php": "2.7",
         "fideloper/proxy": "4.4.1",
         "fruitcake/laravel-cors": "2.0.3",
         "guzzlehttp/guzzle": "7.3.0",
@@ -22,8 +22,9 @@
         "laravel/tinker": "2.6.1",
         "meilisearch/meilisearch-laravel-scout": "0.12.5",
         "sentry/sentry-laravel": "2.4.2",
-        "spatie/laravel-activitylog": "^3.17",
-        "spatie/laravel-sluggable": "^3.0",
+        "spatie/laravel-activitylog": "3.17",
+        "spatie/laravel-responsecache": "7.0",
+        "spatie/laravel-sluggable": "3.0",
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {

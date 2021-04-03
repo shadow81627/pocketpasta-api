@@ -23,7 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 JsonApiRoute::server('v1')
-    ->middleware('auth:sanctum')
+    ->middleware('auth:sanctum', 'cache.headers:private;max_age=1;must-revalidate;etag;last_modified')
     ->prefix('v1')
     ->resources(function ($server) {
         $server->resource('things', ThingController::class)->actions(function ($actions) {
