@@ -5,8 +5,9 @@ namespace App\Http\Controllers\Api\V1;
 use App\Http\Controllers\Controller;
 use LaravelJsonApi\Core\Responses\DataResponse;
 use LaravelJsonApi\Laravel\Http\Controllers\Actions;
+use LaravelJsonApi\Laravel\Http\Requests\AnonymousCollectionQuery;
+
 use App\Models\Thing;
-use App\JsonApi\V1\Things\ThingCollectionQuery;
 
 class ThingController extends Controller
 {
@@ -21,7 +22,7 @@ class ThingController extends Controller
     use Actions\AttachRelationship;
     use Actions\DetachRelationship;
 
-    public function search(ThingCollectionQuery $request)
+    public function search(AnonymousCollectionQuery $request)
     {
         return new DataResponse(Thing::search($request->search)->get());
     }
