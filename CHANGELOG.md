@@ -1,5 +1,11 @@
 # Releases
 
+## [1.2.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.2.0...v1.2.1) (2021-04-03)
+
+### Bug Fixes
+
+- **cache:** remove invalid last modified ([d763dd1](https://github.com/shadow81627/pocketpasta-api/commit/d763dd1c81398705cb2aae1ba76d372854fab5f3))
+
 ## [1.2.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.1.0...v1.2.0) (2021-04-03)
 
 ### Bug Fixes
