@@ -3,7 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-use App\Models\Thing;
+use LaravelJsonApi\Laravel\Facades\JsonApiRoute;
+
 use App\Http\Controllers\Api\V1\ThingController;
 
 /*
