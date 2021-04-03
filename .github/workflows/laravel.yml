@@ -25,6 +25,10 @@ jobs:
           --health-retries 5
         ports:
           - 5432:5432
+      meilisearch:
+        image: 'getmeili/meilisearch:latest'
+        ports:
+            - '7700:7700'
     steps:
       - uses: actions/checkout@v2
       - name: Copy .env
