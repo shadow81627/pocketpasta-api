@@ -41,7 +41,7 @@ class ThingPolicy
      */
     public function create(User $user)
     {
-        //
+        return true;
     }
 
     /**
@@ -53,7 +53,7 @@ class ThingPolicy
      */
     public function update(User $user, Thing $thing)
     {
-        //
+        return true;
     }
 
     /**
@@ -65,7 +65,7 @@ class ThingPolicy
      */
     public function delete(User $user, Thing $thing)
     {
-        //
+        return true;
     }
 
     /**
@@ -77,7 +77,7 @@ class ThingPolicy
      */
     public function restore(User $user, Thing $thing)
     {
-        //
+        return true;
     }
 
     /**
