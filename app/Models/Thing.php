@@ -10,6 +10,7 @@ use Laravel\Scout\Searchable;
 
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use Spatie\Activitylog\Traits\LogsActivity;
 
 class Thing extends Model
 {
@@ -17,6 +18,7 @@ class Thing extends Model
     use SoftDeletes;
     use Searchable;
     use HasSlug;
+    use LogsActivity;
 
     /**
      * The attributes that are mass assignable.
@@ -28,6 +30,8 @@ class Thing extends Model
         'name',
         'description',
     ];
+
+    protected static $logFillable = true;
 
     /**
      * Get the options for generating the slug.
