@@ -22,6 +22,7 @@
         "laravel/tinker": "2.6.1",
         "meilisearch/meilisearch-laravel-scout": "0.12.5",
         "sentry/sentry-laravel": "2.4.2",
+        "spatie/laravel-sluggable": "^3.0",
         "tightenco/ziggy": "1.0.5"
     },
     "require-dev": {
