@@ -13,6 +13,7 @@ jobs:
       DB_DATABASE: postgres
       DB_USERNAME: postgres
       DB_PASSWORD: postgres
+      MEILISEARCH_HOST: http://localhost:7700
     services:
       postgres:
         image: postgres
