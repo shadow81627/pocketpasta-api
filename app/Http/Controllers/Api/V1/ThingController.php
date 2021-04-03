@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use LaravelJsonApi\Core\Responses\DataResponse;
 use LaravelJsonApi\Laravel\Http\Controllers\Actions;
 use LaravelJsonApi\Laravel\Http\Requests\AnonymousCollectionQuery;
-
 use App\Models\Thing;
 
 class ThingController extends Controller

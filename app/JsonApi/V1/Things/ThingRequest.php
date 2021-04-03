@@ -19,5 +19,4 @@ class ThingRequest extends ResourceRequest
             'description' => ['required', 'string'],
         ];
     }
-
 }
