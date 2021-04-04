@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.3.0...v1.4.0) (2021-04-04)
+
+### Features
+
+- **deps:** add statamic ([9bac346](https://github.com/shadow81627/pocketpasta-api/commit/9bac346e65c07e2baed4bc456984a847ba0eaaae))
+
 ## [1.3.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.2.1...v1.3.0) (2021-04-04)
 
 ### Bug Fixes
