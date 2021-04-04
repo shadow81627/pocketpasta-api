@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.2...v1.4.3) (2021-04-04)
+
+### Bug Fixes
+
+- **database:** add missing user migration for statamic ([c12e06b](https://github.com/shadow81627/pocketpasta-api/commit/c12e06b9cd4908647b6c90976dbec07c315e512f))
+
 ## [1.4.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.1...v1.4.2) (2021-04-04)
 
 ### Bug Fixes
