@@ -38,7 +38,7 @@
         "portal-vue": "2.1.7",
         "postcss-import": "14.0.1",
         "prettier": "2.2.1",
-        "@inertiajs/inertia-vue3": "0.3.9",
+        "@inertiajs/inertia-vue3": "0.3.10",
         "@inertiajs/progress": "0.2.4",
         "@tailwindcss/forms": "0.3.2",
         "@tailwindcss/typography": "0.4.0",
