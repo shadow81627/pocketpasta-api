@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.0...v1.4.1) (2021-04-04)
+
+### Bug Fixes
+
+- **statamic:** allow multiple users ([68a1015](https://github.com/shadow81627/pocketpasta-api/commit/68a1015fe8b8068c886f8d309683bc37380008ce))
+
 ## [1.4.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.3.0...v1.4.0) (2021-04-04)
 
 ### Features
