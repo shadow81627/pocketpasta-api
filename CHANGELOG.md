@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.4...v1.4.5) (2021-04-04)
+
+### Bug Fixes
+
+- **deps:** add doctrine/dbal ([eab6fc0](https://github.com/shadow81627/pocketpasta-api/commit/eab6fc0e6d9e0b2c92b6f908f84c3b0d9f1d231f))
+
 ## [1.4.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.3...v1.4.4) (2021-04-04)
 
 ### Bug Fixes
