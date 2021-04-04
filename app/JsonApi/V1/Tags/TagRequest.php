@@ -20,5 +20,4 @@ class TagRequest extends ResourceRequest
             'name' => ['required', 'string'],
         ];
     }
-
 }
