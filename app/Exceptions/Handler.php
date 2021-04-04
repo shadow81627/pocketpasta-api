@@ -45,12 +45,12 @@ class Handler extends ExceptionHandler
     public function report(Throwable $exception)
     {
         if (app()->bound('sentry') && $this->shouldReport($exception)) {
-            $user = request()->user();
-            if ($user) {
-                \Sentry\configureScope(function (\Sentry\State\Scope $scope) use ($user): void {
-                    $scope->setUser($user);
-                });
-            }
+            // $user = request()->user();
+            // if ($user) {
+            //     \Sentry\configureScope(function (\Sentry\State\Scope $scope) use ($user): void {
+            //         $scope->setUser($user);
+            //     });
+            // }
             app('sentry')->captureException($exception);
         }
 
