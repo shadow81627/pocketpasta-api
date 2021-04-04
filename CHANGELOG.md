@@ -1,5 +1,15 @@
 # Releases
 
+## [1.3.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.2.1...v1.3.0) (2021-04-04)
+
+### Bug Fixes
+
+- **sentry:** remove user from report ([324d469](https://github.com/shadow81627/pocketpasta-api/commit/324d4690199bdae30a3fc0cb3b14d16e3af52e2c))
+
+### Features
+
+- tags ([c9b0f65](https://github.com/shadow81627/pocketpasta-api/commit/c9b0f6585d8d743f65523b5fd994df8f5a93fdd1))
+
 ## [1.2.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.2.0...v1.2.1) (2021-04-03)
 
 ### Bug Fixes
