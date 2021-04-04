@@ -13,6 +13,11 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+        \App\Models\User::factory()->withPersonalTeam()->create([
+            'name' => 'Damien Robinson',
+            'email' => 'damien.robinson@pocketpasta.com',
+            'super' => true,
+        ]);
         \App\Models\User::factory(10)->withPersonalTeam()->create();
     }
 }
