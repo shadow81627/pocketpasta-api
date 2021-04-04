@@ -1,5 +1,12 @@
 # Releases
 
+## [1.4.6](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.5...v1.4.6) (2021-04-04)
+
+### Bug Fixes
+
+- **assets:** add file system config ([34f68dc](https://github.com/shadow81627/pocketpasta-api/commit/34f68dc747cc4ad9bb3b378ef62033bdef3b6194))
+- **migrations:** drop taggbles on down ([2e0694f](https://github.com/shadow81627/pocketpasta-api/commit/2e0694f77c9f5d349a64fb3efaf35cb4e823deee))
+
 ## [1.4.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.4...v1.4.5) (2021-04-04)
 
 ### Bug Fixes
