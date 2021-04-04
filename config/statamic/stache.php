@@ -77,10 +77,10 @@ return [
             'class' => Stores\AssetsStore::class,
         ],
 
-        'users' => [
-            'class' => Stores\UsersStore::class,
-            'directory' => base_path('users'),
-        ],
+        // 'users' => [
+        //     'class' => Stores\UsersStore::class,
+        //     'directory' => base_path('users'),
+        // ],
 
     ],
 

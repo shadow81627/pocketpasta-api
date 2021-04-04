@@ -46,6 +46,11 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'statamic' => [
+            'driver' => 'session',
+            'provider' => 'statamic',
+        ]
     ],
 
     /*
@@ -66,6 +71,10 @@ return [
     */
 
     'providers' => [
+        'users' => [
+            'driver' => 'statamic',
+        ],
+
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
@@ -97,6 +106,20 @@ return [
             'provider' => 'users',
             'table' => 'password_resets',
             'expire' => 60,
+            'throttle' => 60,
+        ],
+
+        'resets' => [
+            'provider' => 'users',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+
+        'activations' => [
+            'provider' => 'users',
+            'table' => 'password_activations',
+            'expire' => 4320,
             'throttle' => 60,
         ],
     ],
