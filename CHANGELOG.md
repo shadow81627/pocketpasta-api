@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.1...v1.4.2) (2021-04-04)
+
+### Bug Fixes
+
+- **statamic:** store users in the database ([038c174](https://github.com/shadow81627/pocketpasta-api/commit/038c174e67912731cac976068aa2797d96f37112))
+
 ## [1.4.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.0...v1.4.1) (2021-04-04)
 
 ### Bug Fixes
