@@ -33,6 +33,7 @@ class Server extends BaseServer
     {
         return [
             Things\ThingSchema::class,
+            Tags\TagSchema::class,
         ];
     }
 }

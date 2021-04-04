@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 use LaravelJsonApi\Laravel\Facades\JsonApiRoute;
+use LaravelJsonApi\Laravel\Http\Controllers\JsonApiController;
 
 use App\Http\Controllers\Api\V1\ThingController;
 
@@ -32,4 +33,5 @@ JsonApiRoute::server('v1')
         $server->resource('things', ThingController::class)->actions(function ($actions) {
             $actions->get('search');
         });
+        $server->resource('tags', JsonApiController::class);
     });

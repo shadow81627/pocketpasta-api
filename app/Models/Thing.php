@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Laravel\Scout\Searchable;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use Spatie\Tags\HasTags;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 class Thing extends Model
@@ -16,6 +17,7 @@ class Thing extends Model
     use SoftDeletes;
     use Searchable;
     use HasSlug;
+    use HasTags;
     use LogsActivity;
 
     /**

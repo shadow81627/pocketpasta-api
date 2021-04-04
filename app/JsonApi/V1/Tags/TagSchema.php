@@ -1,19 +1,17 @@
 <?php
 
-namespace App\JsonApi\V1\Things;
+namespace App\JsonApi\V1\Tags;
 
-use App\Models\Thing;
+use App\Models\Tag;
 use LaravelJsonApi\Eloquent\Contracts\Paginator;
 use LaravelJsonApi\Eloquent\Fields\DateTime;
 use LaravelJsonApi\Eloquent\Fields\ID;
-use LaravelJsonApi\Eloquent\Filters\Where;
 use LaravelJsonApi\Eloquent\Filters\WhereIdIn;
 use LaravelJsonApi\Eloquent\Pagination\PagePagination;
-use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Schema;
-use LaravelJsonApi\Eloquent\Fields\Relations\BelongsToMany;
+use LaravelJsonApi\Eloquent\Fields\Str;
 
-class ThingSchema extends Schema
+class TagSchema extends Schema
 {
 
     /**
@@ -21,7 +19,7 @@ class ThingSchema extends Schema
      *
      * @var string
      */
-    public static string $model = Thing::class;
+    public static string $model = \Spatie\Tags\Tag::class;
 
     /**
      * Get the resource fields.
@@ -34,10 +32,8 @@ class ThingSchema extends Schema
             ID::make(),
             Str::make('slug'),
             Str::make('name'),
-            Str::make('description'),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
-            BelongsToMany::make('tags')
         ];
     }
 
@@ -50,7 +46,6 @@ class ThingSchema extends Schema
     {
         return [
             WhereIdIn::make($this),
-            Where::make('slug'),
         ];
     }
 
@@ -63,4 +58,15 @@ class ThingSchema extends Schema
     {
         return PagePagination::make();
     }
+
+    /**
+     * Determine if the resource is authorizable.
+     *
+     * @return bool
+     */
+    public function authorizable(): bool
+    {
+        return false;
+    }
+
 }
