@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\ServiceProvider;
+use Statamic\Statamic;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,6 +25,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        JsonResource::withoutWrapping();
+        // Statamic::script('app', 'cp');
+        // Statamic::style('app', 'cp');
     }
 }
