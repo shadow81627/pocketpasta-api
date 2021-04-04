@@ -1,5 +1,11 @@
 # Releases
 
+## [1.4.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.3...v1.4.4) (2021-04-04)
+
+### Bug Fixes
+
+- **database:** add down migration for tags ([b5e0aad](https://github.com/shadow81627/pocketpasta-api/commit/b5e0aad84b8199e04d17bd42a2baa8e717df40ff))
+
 ## [1.4.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.2...v1.4.3) (2021-04-04)
 
 ### Bug Fixes
