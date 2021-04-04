@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "algolia/algoliasearch-client-php": "2.7.3",
+        "doctrine/dbal": "3.0.0",
         "fideloper/proxy": "4.4.1",
         "fruitcake/laravel-cors": "2.0.3",
         "guzzlehttp/guzzle": "7.3.0",
@@ -33,7 +34,6 @@
     },
     "require-dev": {
         "cweagans/composer-patches": "1.7",
-        "doctrine/dbal": "3.0.0",
         "facade/ignition": "2.7.0",
         "fakerphp/faker": "1.14.1",
         "laravel-json-api/testing": "1.0.0-beta.1",
