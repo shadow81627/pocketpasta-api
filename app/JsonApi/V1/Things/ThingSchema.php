@@ -12,6 +12,7 @@ use LaravelJsonApi\Eloquent\Pagination\PagePagination;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Schema;
 use LaravelJsonApi\Eloquent\Fields\Relations\HasMany;
+use LaravelJsonApi\Eloquent\Fields\ArrayHash;
 
 class ThingSchema extends Schema
 {
@@ -35,6 +36,7 @@ class ThingSchema extends Schema
             Str::make('slug'),
             Str::make('name'),
             Str::make('description'),
+            ArrayHash::make('extra_attributes')->sortKeys(),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
             HasMany::make('tags'),

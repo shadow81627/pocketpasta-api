@@ -24,6 +24,7 @@ class ThingFactory extends Factory
         return [
             'name' => $this->faker->sentence(),
             'description' => $this->faker->realText(),
+            'extra_attributes' => [$this->faker->sentence() => $this->faker->sentence()],
             'tags' => [$this->faker->sentence()],
         ];
     }

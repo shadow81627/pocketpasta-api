@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Casts\AsArrayObject;
 use Laravel\Scout\Searchable;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
@@ -31,8 +32,23 @@ class Thing extends Model
         'slug',
         'name',
         'description',
+        'extra_attributes',
     ];
 
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'extra_attributes' => AsArrayObject::class,
+    ];
+
+    /**
+     * Write changes to log
+     *
+     * @var boolean
+     */
     protected static $logFillable = true;
 
     /**
