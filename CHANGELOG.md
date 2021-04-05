@@ -1,5 +1,16 @@
 # Releases
 
+## [1.4.11](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.10...v1.4.11) (2021-04-05)
+
+### Bug Fixes
+
+- **response cache:** clear cache on updates ([beb9f58](https://github.com/shadow81627/pocketpasta-api/commit/beb9f580b4a59be0c2dcafa79ffb7cf6b08a2901))
+- **statamic:** add resources ([52652d1](https://github.com/shadow81627/pocketpasta-api/commit/52652d13fbc31fdeaf0d791155e5653d4827ac75))
+
+### Performance Improvements
+
+- **scout:** queue true ([6fb8fba](https://github.com/shadow81627/pocketpasta-api/commit/6fb8fbaf1e64b5d48e2f41d8fa48ae92836d2696))
+
 ## [1.4.10](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.9...v1.4.10) (2021-04-04)
 
 ### Bug Fixes
