@@ -11,7 +11,7 @@ use LaravelJsonApi\Eloquent\Filters\WhereIdIn;
 use LaravelJsonApi\Eloquent\Pagination\PagePagination;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Schema;
-use LaravelJsonApi\Eloquent\Fields\Relations\BelongsToMany;
+use LaravelJsonApi\Eloquent\Fields\Relations\HasMany;
 
 class ThingSchema extends Schema
 {
@@ -37,7 +37,7 @@ class ThingSchema extends Schema
             Str::make('description'),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
-            BelongsToMany::make('tags')
+            HasMany::make('tags'),
         ];
     }
 
