@@ -10,6 +10,7 @@ use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Spatie\Tags\HasTags;
 use Spatie\Activitylog\Traits\LogsActivity;
+use App\Traits\ClearsResponseCache;
 
 class Thing extends Model
 {
@@ -19,6 +20,7 @@ class Thing extends Model
     use HasSlug;
     use HasTags;
     use LogsActivity;
+    use ClearsResponseCache;
 
     /**
      * The attributes that are mass assignable.
