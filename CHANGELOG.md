@@ -1,5 +1,15 @@
 # Releases
 
+## [1.5.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.11...v1.5.0) (2021-04-05)
+
+### Bug Fixes
+
+- **thing:** add extra attributes to validation rules ([563fd2a](https://github.com/shadow81627/pocketpasta-api/commit/563fd2a99ca067813231bc65b1869ec4b58abd5a))
+
+### Features
+
+- **thing:** add extra attributes column ([d606507](https://github.com/shadow81627/pocketpasta-api/commit/d606507a2a65af4f6e4a5902ee0bcf5e27336d95))
+
 ## [1.4.11](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.10...v1.4.11) (2021-04-05)
 
 ### Bug Fixes
