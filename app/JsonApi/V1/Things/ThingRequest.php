@@ -17,6 +17,7 @@ class ThingRequest extends ResourceRequest
         return [
             'name' => ['required', 'string'],
             'description' => ['required', 'string'],
+            'extra_attributes' => ['nullable'],
         ];
     }
 }
