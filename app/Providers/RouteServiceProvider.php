@@ -38,9 +38,9 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->configureRateLimiting();
 
-        if (App::environment('production')) {
-            resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
-        }
+        // if (App::environment('production')) {
+        //     resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        // }
 
         $this->routes(function () {
             Route::prefix('api')
