@@ -1,5 +1,11 @@
 # Releases
 
+## [1.5.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.3...v1.5.4) (2021-04-07)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/sanctum to v2.9.4 ([665f79c](https://github.com/shadow81627/pocketpasta-api/commit/665f79ca4af889f24f212d30a2da6a303cea686c))
+
 ## [1.5.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.2...v1.5.3) (2021-04-07)
 
 ### Bug Fixes
