@@ -1,5 +1,35 @@
 # Releases
 
+## [1.5.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.4...v1.5.5) (2021-04-07)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/scout to v8.6.1 ([5c8932c](https://github.com/shadow81627/pocketpasta-api/commit/5c8932cb47bed73af836b0a0499044495a9f20d5))
+
+## [1.5.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.3...v1.5.4) (2021-04-07)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/sanctum to v2.9.4 ([665f79c](https://github.com/shadow81627/pocketpasta-api/commit/665f79ca4af889f24f212d30a2da6a303cea686c))
+
+## [1.5.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.2...v1.5.3) (2021-04-07)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/framework to v8.36.1 ([7daa82d](https://github.com/shadow81627/pocketpasta-api/commit/7daa82d48fcde24402eadcbe5f08f144f091f0de))
+
+## [1.5.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.1...v1.5.2) (2021-04-06)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/jetstream to v2.3.1 ([6e11c54](https://github.com/shadow81627/pocketpasta-api/commit/6e11c54e797efe66a7bee676079aab9fcbf9571b))
+
+## [1.5.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.0...v1.5.1) (2021-04-06)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/framework to v8.36.0 ([074b0dd](https://github.com/shadow81627/pocketpasta-api/commit/074b0dd6ec836bc73f4660e8a9cd940aef427f27))
+
 ## [1.5.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.4.11...v1.5.0) (2021-04-05)
 
 ### Bug Fixes
