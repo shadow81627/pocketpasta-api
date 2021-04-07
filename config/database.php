@@ -2,6 +2,23 @@
 
 use Illuminate\Support\Str;
 
+$redis_url = env('REDIS_URL');
+
+if ($env !== false) {
+    $url = parse_url($redis_url);
+    if (isset($url['host'])) {
+        putenv('REDIS_HOST='.$url['host']);
+    }
+
+    if (isset($url['port'])) {
+        putenv('REDIS_PORT='.$url['port']);
+    }
+
+    if (isset($url['pass'])) {
+        putenv('REDIS_PASSWORD='.$url['pass']);
+    }
+}
+
 return [
 
     /*
@@ -136,7 +153,7 @@ return [
         ],
 
         'default' => [
-            'url' => env('REDIS_URL'),
+            // 'url' => env('REDIS_URL'),
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', '6379'),
@@ -144,7 +161,7 @@ return [
         ],
 
         'cache' => [
-            'url' => env('REDIS_URL'),
+            // 'url' => env('REDIS_URL'),
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', '6379'),
