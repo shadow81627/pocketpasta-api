@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 
 $redis_url = env('REDIS_URL');
 
-if ($env !== false) {
+if ($redis_url !== false) {
     $url = parse_url($redis_url);
     if (isset($url['host'])) {
         putenv('REDIS_HOST='.$url['host']);
