@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6db728e289a6487f429ea3487846e2a",
+    "content-hash": "1569c5ea5ca3896f6f681782d3b42d5c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3510,6 +3510,70 @@
             "time": "2021-01-19T15:30:52+00:00"
         },
         {
+            "name": "laravel/telescope",
+            "version": "v4.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/telescope.git",
+                "reference": "903c709b46b5f877c8434c657f964c7bdea7a6a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/903c709b46b5f877c8434c657f964c7bdea7a6a4",
+                "reference": "903c709b46b5f877c8434c657f964c7bdea7a6a4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.29",
+                "php": "^7.3|^8.0",
+                "symfony/var-dumper": "^5.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "orchestra/testbench": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Telescope\\TelescopeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Telescope\\": "src/",
+                    "Laravel\\Telescope\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "An elegant debug assistant for the Laravel framework.",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "monitoring"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/telescope/issues",
+                "source": "https://github.com/laravel/telescope/tree/v4.4.6"
+            },
+            "time": "2021-03-11T13:32:54+00:00"
+        },
+        {
             "name": "laravel/tinker",
             "version": "v2.6.1",
             "source": {
@@ -6264,16 +6328,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "899b0de58c1e01feb54829b3094af74252aff385"
+                "reference": "fb4f83e6e2d718d1e5fbfe3a20cced83f47f040f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/899b0de58c1e01feb54829b3094af74252aff385",
-                "reference": "899b0de58c1e01feb54829b3094af74252aff385",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/fb4f83e6e2d718d1e5fbfe3a20cced83f47f040f",
+                "reference": "fb4f83e6e2d718d1e5fbfe3a20cced83f47f040f",
                 "shasum": ""
             },
             "require": {
@@ -6352,7 +6416,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.2.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.2.1"
             },
             "funding": [
                 {
@@ -6364,7 +6428,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-03-03T11:54:34+00:00"
+            "time": "2021-04-06T07:55:41+00:00"
         },
         {
             "name": "sentry/sentry-laravel",
@@ -7910,16 +7974,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "c7d1f35a31ef153a302e3f80336170e1280b983d"
+                "reference": "3c3075467da15bc2edf38d2ac20d34719e794bd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/c7d1f35a31ef153a302e3f80336170e1280b983d",
-                "reference": "c7d1f35a31ef153a302e3f80336170e1280b983d",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/3c3075467da15bc2edf38d2ac20d34719e794bd8",
+                "reference": "3c3075467da15bc2edf38d2ac20d34719e794bd8",
                 "shasum": ""
             },
             "require": {
@@ -7976,7 +8040,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.2.4"
+                "source": "https://github.com/symfony/http-client/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -7992,7 +8056,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-01T00:40:14+00:00"
+            "time": "2021-03-28T09:42:18+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -11094,16 +11158,16 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546"
+                "reference": "9dd6f2b56486d939c4467b3f35475d44af57cf17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546",
-                "reference": "ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/9dd6f2b56486d939c4467b3f35475d44af57cf17",
+                "reference": "9dd6f2b56486d939c4467b3f35475d44af57cf17",
                 "shasum": ""
             },
             "require": {
@@ -11147,7 +11211,7 @@
             ],
             "support": {
                 "issues": "https://github.com/facade/flare-client-php/issues",
-                "source": "https://github.com/facade/flare-client-php/tree/1.4.0"
+                "source": "https://github.com/facade/flare-client-php/tree/1.5.0"
             },
             "funding": [
                 {
@@ -11155,7 +11219,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-16T12:42:06+00:00"
+            "time": "2021-03-31T07:32:54+00:00"
         },
         {
             "name": "facade/ignition",
@@ -12196,16 +12260,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.5",
+            "version": "9.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f3e026641cc91909d421802dd3ac7827ebfd97e1"
+                "reference": "f6293e1b30a2354e8428e004689671b83871edde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f3e026641cc91909d421802dd3ac7827ebfd97e1",
-                "reference": "f3e026641cc91909d421802dd3ac7827ebfd97e1",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f6293e1b30a2354e8428e004689671b83871edde",
+                "reference": "f6293e1b30a2354e8428e004689671b83871edde",
                 "shasum": ""
             },
             "require": {
@@ -12261,7 +12325,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.5"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.6"
             },
             "funding": [
                 {
@@ -12269,7 +12333,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-28T06:44:49+00:00"
+            "time": "2021-03-28T07:26:59+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
