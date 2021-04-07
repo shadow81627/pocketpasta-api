@@ -1,5 +1,11 @@
 # Releases
 
+## [1.6.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.5...v1.6.0) (2021-04-07)
+
+### Features
+
+- add telescope ([3b37bc5](https://github.com/shadow81627/pocketpasta-api/commit/3b37bc50a5c1471a8e84a544a4d797fb5427d7d0))
+
 ## [1.5.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.5.4...v1.5.5) (2021-04-07)
 
 ### Bug Fixes
