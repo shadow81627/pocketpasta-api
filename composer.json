@@ -18,7 +18,7 @@
         "laravel-json-api/laravel": "1.0.0-beta.1",
         "laravel/framework": "8.36.1",
         "laravel/jetstream": "2.3.1",
-        "laravel/sanctum": "2.9.3",
+        "laravel/sanctum": "2.9.4",
         "laravel/scout": "8.6",
         "laravel/tinker": "2.6.1",
         "meilisearch/meilisearch-laravel-scout": "0.12.5",
