@@ -79,7 +79,8 @@
         "lint": "phpcs",
         "lint:fix": "phpcbf",
         "pre-update-cmd": [
-            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd"
+            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd",
+            "@php artisan telescope:publish --ansi"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
