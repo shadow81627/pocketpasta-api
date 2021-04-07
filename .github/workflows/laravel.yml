@@ -30,6 +30,10 @@ jobs:
         image: 'getmeili/meilisearch:latest'
         ports:
             - '7700:7700'
+      redis:
+        image: 'redis:alpine'
+        ports:
+          - '6379:6379'
     steps:
       - uses: actions/checkout@v2
       - name: Copy .env
