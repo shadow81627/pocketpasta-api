@@ -12,7 +12,7 @@ class TrustProxies extends Middleware
      *
      * @var array|string|null
      */
-    protected $proxies = '0.0.0.0/0';
+    protected $proxies = ['0.0.0.0/0'];
 
     /**
      * The headers that should be used to detect proxies.
