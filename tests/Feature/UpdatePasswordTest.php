@@ -36,7 +36,7 @@ class UpdatePasswordTest extends TestCase
 
         $response->assertSessionHasErrors();
 
-        $this->assertTrue(Hash::check('password', $user->fresh()->password));
+        $this->assertTrue(Hash::check('Password1!', $user->fresh()->password));
     }
 
     public function test_new_passwords_must_match()
