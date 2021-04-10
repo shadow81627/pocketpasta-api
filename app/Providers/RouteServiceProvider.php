@@ -38,7 +38,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->configureRateLimiting();
 
-        if (env('APP_USE_HTTPS')) {
+        if (config('app.use_https')) {
             URL::forceScheme('https');
         }
 
