@@ -11,6 +11,7 @@ use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Spatie\Tags\HasTags;
 use Spatie\Activitylog\Traits\LogsActivity;
+use Dyrynda\Database\Support\CascadeSoftDeletes;
 use App\Traits\ClearsResponseCache;
 
 class Thing extends Model
@@ -22,6 +23,9 @@ class Thing extends Model
     use HasTags;
     use LogsActivity;
     use ClearsResponseCache;
+    use CascadeSoftDeletes;
+
+    protected $cascadeDeletes = ['products'];
 
     /**
      * The attributes that are mass assignable.
@@ -60,5 +64,10 @@ class Thing extends Model
             ->generateSlugsFrom('name')
             ->saveSlugsTo('slug')
             ->doNotGenerateSlugsOnUpdate();
+    }
+
+    public function products()
+    {
+        return $this->hasMany(Product::class);
     }
 }
