@@ -32,6 +32,7 @@ class ProductSchema extends Schema
     {
         return [
             ID::make(),
+            Str::make('gtin13'),
             Str::make('sku'),
             Str::make('color'),
             Str::make('pattern'),

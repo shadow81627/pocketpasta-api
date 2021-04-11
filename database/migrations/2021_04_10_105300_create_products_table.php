@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->foreignId('thing_id')->constrained();
-            $table->unsignedBigInteger('gtin13')->unique();
+            $table->unsignedBigInteger('gtin13')->unique()->nullable();
             $table->string('sku')->nullable(); // The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
             $table->string('color')->nullable(); // The color of the product. TODO: consider validating with https://github.com/meodai/color-names and manipulating with https://github.com/spatie/color
             $table->string('pattern')->nullable(); // A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported.

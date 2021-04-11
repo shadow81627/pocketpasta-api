@@ -31,6 +31,7 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [
+        'gtin13',
         'sku',
         'color',
         'pattern',

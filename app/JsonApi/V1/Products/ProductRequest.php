@@ -18,6 +18,7 @@ class ProductRequest extends ResourceRequest
     {
         return [
             'thing' => ['required', JsonApiRule::toOne()],
+            'gtin13' => ['nullable', 'string'],
             'sku' => ['nullable', 'string'],
             'color' => ['nullable', 'string'],
             'pattern' => ['nullable', 'string'],
