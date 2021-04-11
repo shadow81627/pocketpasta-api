@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "ext-redis": "5.3.2",
+        "ext-redis": "5.3.*",
         "algolia/algoliasearch-client-php": "2.8.0",
         "doctrine/dbal": "3.0.0",
         "fideloper/proxy": "4.4.1",
