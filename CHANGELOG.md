@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.0...v1.7.1) (2021-04-11)
+
+### Bug Fixes
+
+- **product:** gtin13 nullable ([dc63a7e](https://github.com/shadow81627/pocketpasta-api/commit/dc63a7e471839cae53ca40b59b4dd517570391ed))
+
 ## [1.7.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.6.3...v1.7.0) (2021-04-11)
 
 ### Features
