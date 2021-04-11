@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.1...v1.7.2) (2021-04-11)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/telescope to v4.4.8 ([79ea037](https://github.com/shadow81627/pocketpasta-api/commit/79ea0377e122536a788980edfbcc93aa290c4d57))
+
 ## [1.7.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.0...v1.7.1) (2021-04-11)
 
 ### Bug Fixes
