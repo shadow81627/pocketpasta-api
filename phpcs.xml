@@ -1,16 +1,57 @@
 <?xml version="1.0"?>
+<ruleset name="Laravel Standards">
 
-<ruleset name="PHP_CodeSniffer">
+    <description>Laravel Coding Standards</description>
 
-    <description>PHPCS configuration file.</description>
-    <!-- check all files in the app directory, feel free to add more files with:
-    <file>FOLDER NAME</file>
-    -->
+    <rule ref="Generic.Classes.DuplicateClassName"/>
+    <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
+    <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
+    <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
+    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
+    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
+    <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <properties>
+            <property name="error" value="false"/>
+        </properties>
+    </rule>
+    <rule ref="Generic.Formatting.NoSpaceAfterCast"/>
+    <rule ref="Generic.Functions.CallTimePassByReference"/>
+    <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
+    <rule ref="Generic.Metrics.NestingLevel"/>
+    <rule ref="Generic.NamingConventions.ConstructorName"/>
+    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+    <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
+    <rule ref="Generic.PHP.DeprecatedFunctions"/>
+    <rule ref="Generic.PHP.ForbiddenFunctions"/>
+    <rule ref="Generic.PHP.LowerCaseConstant"/>
+    <rule ref="Generic.Strings.UnnecessaryStringConcat"/>
+    <rule ref="PEAR.Classes.ClassDeclaration">
+        <properties>
+            <property name="indent" value="2"/>
+        </properties>
+    </rule>
+    <rule ref="PEAR.NamingConventions.ValidClassName"/>
+    <rule ref="PEAR.NamingConventions.ValidFunctionName"/>
+
+    <file>database</file>
+    <file>config</file>
+    <file>public</file>
+    <file>resources</file>
+    <file>routes</file>
+    <file>tests</file>
     <file>app</file>
 
     <!-- exclude our migrations directory from the violation check-->
-    <exclude-pattern>*/migrations/*</exclude-pattern>
+    <exclude-pattern>*/cache/*</exclude-pattern>
+    <exclude-pattern>*/*.js</exclude-pattern>
+    <exclude-pattern>*/*.css</exclude-pattern>
+    <exclude-pattern>*/*.xml</exclude-pattern>
+    <exclude-pattern>*/storage/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/migrations/*</exclude-pattern>
 
     <!-- ignore warnings and display ERRORS only -->
     <arg value="np"/>
@@ -18,4 +59,7 @@
     <!-- Our base rule: set to PSR12-->
     <rule ref="PSR12"/>
 
+    <arg name="colors"/>
+    <arg value="spvnl"/>
+    <ini name="memory_limit" value="128M"/>
 </ruleset>

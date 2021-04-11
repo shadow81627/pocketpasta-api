@@ -1,4 +1,5 @@
 <?php
+
 return [
     /*
      * The name of the column that will be used to sort models.

@@ -7,15 +7,15 @@ $redis_url = env('REDIS_URL');
 if ($redis_url !== false) {
     $url = parse_url($redis_url);
     if (isset($url['host'])) {
-        putenv('REDIS_HOST='.$url['host']);
+        putenv('REDIS_HOST=' . $url['host']);
     }
 
     if (isset($url['port'])) {
-        putenv('REDIS_PORT='.$url['port']);
+        putenv('REDIS_PORT=' . $url['port']);
     }
 
     if (isset($url['pass'])) {
-        putenv('REDIS_PASSWORD='.$url['pass']);
+        putenv('REDIS_PASSWORD=' . $url['pass']);
     }
 }
 
@@ -149,7 +149,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [
