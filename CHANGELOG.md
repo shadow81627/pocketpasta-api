@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.6.3...v1.7.0) (2021-04-11)
+
+### Features
+
+- product ([#102](https://github.com/shadow81627/pocketpasta-api/issues/102)) ([134fe52](https://github.com/shadow81627/pocketpasta-api/commit/134fe52e42cb0ba6594f2c21463cc2d85f28bb24))
+
 ## [1.6.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.6.2...v1.6.3) (2021-04-07)
 
 ### Bug Fixes
