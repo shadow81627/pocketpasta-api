@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c3a14e17122d54bacf4d99082645008",
+    "content-hash": "20759ff092193cd7f8af1603ddef64fa",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7166,16 +7166,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "f7c566fd77cd034bb23470c2398e22221085d218"
+                "reference": "430a878700c7f52c9cb106421ba780c765c4965e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/f7c566fd77cd034bb23470c2398e22221085d218",
-                "reference": "f7c566fd77cd034bb23470c2398e22221085d218",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/430a878700c7f52c9cb106421ba780c765c4965e",
+                "reference": "430a878700c7f52c9cb106421ba780c765c4965e",
                 "shasum": ""
             },
             "require": {
@@ -7243,7 +7243,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.1.5"
+                "source": "https://github.com/statamic/cms/tree/v3.1.6"
             },
             "funding": [
                 {
@@ -7251,7 +7251,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-07T19:55:47+00:00"
+            "time": "2021-04-12T17:20:37+00:00"
         },
         {
             "name": "statamic/stringy",
