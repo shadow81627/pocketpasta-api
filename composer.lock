@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "236ce3507c11995e887d54a1aa6918a8",
+    "content-hash": "47d848dfb4cf4d196c1280ce2525fcc6",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3033,16 +3033,16 @@
         },
         {
             "name": "laravel/fortify",
-            "version": "v1.7.9",
+            "version": "v1.7.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/fortify.git",
-                "reference": "9ba71f3e448ae44370bdfe72f19952e23b4d6191"
+                "reference": "82c99b6999f7e89f402cfd7eb4074e619382b3b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/fortify/zipball/9ba71f3e448ae44370bdfe72f19952e23b4d6191",
-                "reference": "9ba71f3e448ae44370bdfe72f19952e23b4d6191",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/82c99b6999f7e89f402cfd7eb4074e619382b3b7",
+                "reference": "82c99b6999f7e89f402cfd7eb4074e619382b3b7",
                 "shasum": ""
             },
             "require": {
@@ -3092,7 +3092,7 @@
                 "issues": "https://github.com/laravel/fortify/issues",
                 "source": "https://github.com/laravel/fortify"
             },
-            "time": "2021-03-30T21:12:39+00:00"
+            "time": "2021-04-13T15:05:45+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3320,16 +3320,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "39d50ec0dda28ae2077baf9df307509a09307d75"
+                "reference": "cf7a8eb8b3b7ea219b9503df87d3ebefa36f335b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/39d50ec0dda28ae2077baf9df307509a09307d75",
-                "reference": "39d50ec0dda28ae2077baf9df307509a09307d75",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/cf7a8eb8b3b7ea219b9503df87d3ebefa36f335b",
+                "reference": "cf7a8eb8b3b7ea219b9503df87d3ebefa36f335b",
                 "shasum": ""
             },
             "require": {
@@ -3383,7 +3383,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2021-04-06T14:26:21+00:00"
+            "time": "2021-04-13T15:08:13+00:00"
         },
         {
             "name": "laravel/sanctum",
