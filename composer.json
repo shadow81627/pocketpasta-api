@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "ext-redis": "5.3.*",
-        "algolia/algoliasearch-client-php": "2.8.0",
+        "algolia/algoliasearch-client-php": "3.0.0",
         "doctrine/dbal": "3.0.0",
         "dyrynda/laravel-cascade-soft-deletes": "4.1.0",
         "fideloper/proxy": "4.4.1",
