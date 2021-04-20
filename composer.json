@@ -42,7 +42,7 @@
         "facade/ignition": "2.8.3",
         "fakerphp/faker": "1.14.1",
         "laravel-json-api/testing": "1.0.0-beta.1",
-        "laravel/sail": "1.4.12",
+        "laravel/sail": "1.5.0",
         "mockery/mockery": "1.4.3",
         "nunomaduro/collision": "5.4.0",
         "phpunit/phpunit": "9.5.4",

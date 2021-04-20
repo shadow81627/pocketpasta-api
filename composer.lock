@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22455f37809f93919dfefc96bb4d490c",
+    "content-hash": "0275379519ea4ba6517e2a7e3e838847",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -11718,16 +11718,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.4.12",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156"
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
                 "shasum": ""
             },
             "require": {
@@ -11774,7 +11774,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2021-04-13T15:35:40+00:00"
+            "time": "2021-04-20T16:17:55+00:00"
         },
         {
             "name": "myclabs/deep-copy",
