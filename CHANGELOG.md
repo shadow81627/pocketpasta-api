@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.13...v1.7.14) (2021-04-20)
+
+### Bug Fixes
+
+- **deps:** update dependency doctrine/dbal to v3.1.0 ([318c32c](https://github.com/shadow81627/pocketpasta-api/commit/318c32cb3955a475ddd46f2b37c30d7694ef67d9))
+
 ## [1.7.13](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.12...v1.7.13) (2021-04-19)
 
 ### Bug Fixes
