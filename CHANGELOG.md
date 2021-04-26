@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.22](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.21...v1.7.22) (2021-04-26)
+
+### Bug Fixes
+
+- **deps:** update dependency fruitcake/laravel-cors to v2.0.4 ([981ce4c](https://github.com/shadow81627/pocketpasta-api/commit/981ce4cebf8d62bbb093620d52c906304a6c9ef2))
+
 ## [1.7.21](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.20...v1.7.21) (2021-04-24)
 
 ### Bug Fixes
