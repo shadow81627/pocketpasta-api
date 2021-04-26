@@ -20,12 +20,12 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Tools
 
-[Github Actions](https://github.com/features/actions) makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
-[Heroku hosting](https://www.heroku.com/) is a cloud-based, fully-managed platform as a service (Paas) for building, running, and managing apps.
-[Postgres database](https://www.postgresql.org/) powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
-[Algolia search](https://www.algolia.com/) flexible AI-powered Search & Discovery platform
-[JSON:API spec](https://laraveljsonapi.io/) implement feature-rich JSON:API compliant APIs in your Laravel applications. Build your next standards-compliant API today.
-[Laravel Telescope](https://laravel.com/docs/8.x/telescope) insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more.
-[Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs.
-[Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate) saves time and reduces risk by automating dependency updates in software projects.
-[Postman](https://www.postman.com/) is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+- [Github Actions](https://github.com/features/actions) makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
+- [Heroku hosting](https://www.heroku.com/) is a cloud-based, fully-managed platform as a service (Paas) for building, running, and managing apps.
+- [Postgres database](https://www.postgresql.org/) powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+- [Algolia search](https://www.algolia.com/) flexible AI-powered Search & Discovery platform
+- [JSON:API spec](https://laraveljsonapi.io/) implement feature-rich JSON:API compliant APIs in your Laravel applications. Build your next standards-compliant API today.
+- [Laravel Telescope](https://laravel.com/docs/8.x/telescope) insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more.
+- [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs.
+- [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate) saves time and reduces risk by automating dependency updates in software projects.
+- [Postman](https://www.postman.com/) is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
