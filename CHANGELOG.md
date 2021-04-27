@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.25](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.24...v1.7.25) (2021-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/framework to v8.39.0 ([7b46215](https://github.com/shadow81627/pocketpasta-api/commit/7b46215d3eb96aada9e5ec72a8cb724cab39bd3b))
+
 ## [1.7.24](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.23...v1.7.24) (2021-04-27)
 
 ### Bug Fixes
