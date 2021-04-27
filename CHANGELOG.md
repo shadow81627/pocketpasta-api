@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.24](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.23...v1.7.24) (2021-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency spatie/laravel-responsecache to v7.1.0 ([5cd8ee4](https://github.com/shadow81627/pocketpasta-api/commit/5cd8ee4a1098238681380a15597ce59bdd8d3d70))
+
 ## [1.7.23](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.22...v1.7.23) (2021-04-27)
 
 ### Bug Fixes
