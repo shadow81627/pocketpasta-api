@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4d8f2061c48165f771eb4ee840e70fc",
+    "content-hash": "ed8d2cbb6c3f61ff0dc6f7568e8c9916",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -6848,16 +6848,16 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "4bb554dc9870127606c34d906a602989b8b376ff"
+                "reference": "97b53951e9623b3e38babf274c335913bf320a1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/4bb554dc9870127606c34d906a602989b8b376ff",
-                "reference": "4bb554dc9870127606c34d906a602989b8b376ff",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/97b53951e9623b3e38babf274c335913bf320a1a",
+                "reference": "97b53951e9623b3e38babf274c335913bf320a1a",
                 "shasum": ""
             },
             "require": {
@@ -6896,7 +6896,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.6.2"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.6.3"
             },
             "funding": [
                 {
@@ -6904,20 +6904,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-25T08:05:55+00:00"
+            "time": "2021-04-27T06:17:34+00:00"
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "7.0.1",
+            "version": "7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "39a6f6ec7c14a0d597271479c75d769dcb026c8a"
+                "reference": "3bf314f2e6ed7644b9dc182817b48754c928008c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/39a6f6ec7c14a0d597271479c75d769dcb026c8a",
-                "reference": "39a6f6ec7c14a0d597271479c75d769dcb026c8a",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/3bf314f2e6ed7644b9dc182817b48754c928008c",
+                "reference": "3bf314f2e6ed7644b9dc182817b48754c928008c",
                 "shasum": ""
             },
             "require": {
@@ -6977,7 +6977,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-responsecache/issues",
-                "source": "https://github.com/spatie/laravel-responsecache/tree/7.0.1"
+                "source": "https://github.com/spatie/laravel-responsecache/tree/7.1.0"
             },
             "funding": [
                 {
@@ -6989,7 +6989,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-13T13:52:40+00:00"
+            "time": "2021-04-27T07:23:06+00:00"
         },
         {
             "name": "spatie/laravel-sluggable",
