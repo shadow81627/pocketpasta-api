@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.32](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.31...v1.7.32) (2021-05-04)
+
+### Bug Fixes
+
+- **deps:** update dependency algolia/algoliasearch-client-php to v3.0.2 ([566659e](https://github.com/shadow81627/pocketpasta-api/commit/566659ed1086a20868fe24cfb22800d3b5fc78b6))
+
 ## [1.7.31](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.30...v1.7.31) (2021-04-29)
 
 ### Bug Fixes
