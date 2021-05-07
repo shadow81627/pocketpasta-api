@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.35](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.34...v1.7.35) (2021-05-07)
+
+### Bug Fixes
+
+- **deps:** update dependency statamic/cms to v3.1.12 ([e394b0b](https://github.com/shadow81627/pocketpasta-api/commit/e394b0b42f62baecd06a6d7260952f2836457ec5))
+
 ## [1.7.34](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.33...v1.7.34) (2021-05-06)
 
 ### Bug Fixes
