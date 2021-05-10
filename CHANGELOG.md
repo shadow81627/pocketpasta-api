@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.38](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.37...v1.7.38) (2021-05-10)
+
+### Bug Fixes
+
+- **deps:** update dependency sentry/sentry-laravel to v2.5.3 ([914e461](https://github.com/shadow81627/pocketpasta-api/commit/914e4616ad51f7fdda0a1ab9ccd53c8f8cbab57d))
+
 ## [1.7.37](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.36...v1.7.37) (2021-05-10)
 
 ### Bug Fixes
