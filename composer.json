@@ -18,7 +18,7 @@
         "guzzlehttp/guzzle": "7.3.0",
         "inertiajs/inertia-laravel": "0.4.2",
         "laravel-json-api/laravel": "1.0.0-beta.3",
-        "laravel/framework": "8.40.0",
+        "laravel/framework": "8.41.0",
         "laravel/jetstream": "2.3.4",
         "laravel/sanctum": "2.10.0",
         "laravel/scout": "9.0.0",
