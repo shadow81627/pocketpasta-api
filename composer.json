@@ -35,7 +35,7 @@
         "statamic/cms": "3.1.16",
         "staudenmeir/eloquent-eager-limit": "1.6.1",
         "staudenmeir/eloquent-has-many-deep": "1.13.1",
-        "tightenco/ziggy": "1.1.0"
+        "tightenco/ziggy": "1.2.0"
     },
     "require-dev": {
         "cweagans/composer-patches": "1.7",
