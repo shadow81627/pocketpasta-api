@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.49](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.48...v1.7.49) (2021-05-25)
+
+### Bug Fixes
+
+- **deps:** update dependency tightenco/ziggy to v1.2.0 ([0a5e3bf](https://github.com/shadow81627/pocketpasta-api/commit/0a5e3bff5c144d2cb7485b2293bee0aa050b33c9))
+
 ## [1.7.48](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.47...v1.7.48) (2021-05-25)
 
 ### Bug Fixes
