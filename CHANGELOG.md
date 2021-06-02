@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.55](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.54...v1.7.55) (2021-06-02)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/jetstream to v2.3.7 ([2ddc0d0](https://github.com/shadow81627/pocketpasta-api/commit/2ddc0d0dae8eaa731abf95f9a87b0e3badfddc3e))
+
 ## [1.7.54](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.53...v1.7.54) (2021-05-28)
 
 ### Bug Fixes
