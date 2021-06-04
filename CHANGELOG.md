@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.59](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.58...v1.7.59) (2021-06-04)
+
+### Bug Fixes
+
+- **deps:** update dependency spatie/laravel-sluggable to v3.1.0 ([19d66eb](https://github.com/shadow81627/pocketpasta-api/commit/19d66eb3ad8e6a71cf58284151e5e12d990a2b56))
+
 ## [1.7.58](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.57...v1.7.58) (2021-06-04)
 
 ### Bug Fixes
