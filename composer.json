@@ -30,7 +30,7 @@
         "spatie/laravel-activitylog": "4.0.0",
         "spatie/laravel-http-logger": "1.7",
         "spatie/laravel-responsecache": "7.1.0",
-        "spatie/laravel-sluggable": "3.0.2",
+        "spatie/laravel-sluggable": "3.1.0",
         "spatie/laravel-tags": "4.0.3",
         "statamic/cms": "3.1.18",
         "staudenmeir/eloquent-eager-limit": "1.6.1",
