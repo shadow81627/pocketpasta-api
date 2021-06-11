@@ -39,7 +39,7 @@
     },
     "require-dev": {
         "cweagans/composer-patches": "1.7.1",
-        "facade/ignition": "2.10.1",
+        "facade/ignition": "2.10.2",
         "fakerphp/faker": "1.14.1",
         "laravel-json-api/testing": "1.0.0-beta.1",
         "laravel/sail": "1.8.1",
