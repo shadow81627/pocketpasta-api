@@ -1,5 +1,13 @@
 # Releases
 
+## [1.7.69](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.68...v1.7.69) (2021-06-16)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/sanctum to v2.11.2 ([e555bb0](https://github.com/shadow81627/pocketpasta-api/commit/e555bb086c859214977462a92e3fba9aa7d8d1bb))
+- **deps:** update dependency laravel/telescope to v4.5.0 ([4a5f297](https://github.com/shadow81627/pocketpasta-api/commit/4a5f297b2c804f5d6d17bc2e3889b27dcf73821c))
+- **deps:** update dependency sentry/sentry-laravel to v2.7.0 ([f6285f5](https://github.com/shadow81627/pocketpasta-api/commit/f6285f5b226448466263487acf4483572e793de7))
+
 ## [1.7.68](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.67...v1.7.68) (2021-06-15)
 
 ### Bug Fixes
