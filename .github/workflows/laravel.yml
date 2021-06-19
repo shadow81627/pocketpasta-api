@@ -78,3 +78,6 @@ jobs:
 
       - name: Test
         run: php artisan test
+
+      - name: Enlightn
+        run: php artisan enlightn --ci

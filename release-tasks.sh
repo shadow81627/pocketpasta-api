@@ -1,0 +1,8 @@
+php artisan clear-compiled
+composer dumpautoload -o
+php artisan optimize
+php artisan config:cache
+php artisan route:cache
+php artisan migrate --force
+php artisan cache:clear
+php artisan enlightn --ci --report
