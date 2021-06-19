@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.75](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.74...v1.7.75) (2021-06-19)
+
+### Bug Fixes
+
+- **deps:** add meilisearch/meilisearch-php ([8440cbb](https://github.com/shadow81627/pocketpasta-api/commit/8440cbbea1186d520dd8fa03e90accd2afeb7ab7))
+
 ## [1.7.74](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.73...v1.7.74) (2021-06-19)
 
 ### Bug Fixes
