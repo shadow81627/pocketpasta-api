@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.73](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.72...v1.7.73) (2021-06-19)
+
+### Bug Fixes
+
+- **auth:** always apply middleware ([ac20022](https://github.com/shadow81627/pocketpasta-api/commit/ac20022dc22fedb70172959d6be5ebe81f009e5b))
+
 ## [1.7.72](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.71...v1.7.72) (2021-06-18)
 
 ### Bug Fixes
