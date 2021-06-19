@@ -13,6 +13,7 @@ use Spatie\Tags\HasTags;
 use Spatie\Activitylog\Traits\LogsActivity;
 use Dyrynda\Database\Support\CascadeSoftDeletes;
 use App\Traits\ClearsResponseCache;
+use Spatie\Activitylog\LogOptions;
 
 class Thing extends Model
 {
@@ -54,6 +55,10 @@ class Thing extends Model
      * @var boolean
      */
     protected static $logFillable = true;
+
+    public function getActivitylogOptions(): LogOptions {
+        return LogOptions::defaults();
+    }
 
     /**
      * Get the options for generating the slug.
