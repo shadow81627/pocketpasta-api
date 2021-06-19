@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.74](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.73...v1.7.74) (2021-06-19)
+
+### Bug Fixes
+
+- **thing:** log options ([8e6758c](https://github.com/shadow81627/pocketpasta-api/commit/8e6758c0d637e5112a1d30f6dc1091e595218933))
+
 ## [1.7.73](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.72...v1.7.73) (2021-06-19)
 
 ### Bug Fixes
