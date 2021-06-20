@@ -66,4 +66,6 @@
     <filesmatch "\\.(js)$">
         Header set Cache-Control "max-age=216000, private"
     </filesmatch>
+
+    Header always set Content-Security-Policy "default-src 'self';"
 </IfModule>
