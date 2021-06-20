@@ -1,5 +1,15 @@
 # Releases
 
+## [1.7.76](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.75...v1.7.76) (2021-06-20)
+
+### Bug Fixes
+
+- **error:** publish error pages ([5b19021](https://github.com/shadow81627/pocketpasta-api/commit/5b19021c4cc9ea97e37edddcc371e1795d538f6b))
+
+### Performance Improvements
+
+- **assets:** cache control and gzip ([783e27f](https://github.com/shadow81627/pocketpasta-api/commit/783e27f35aeb4eeb77b7aa98bd24fddb1fe7e00c))
+
 ## [1.7.75](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.74...v1.7.75) (2021-06-19)
 
 ### Bug Fixes
