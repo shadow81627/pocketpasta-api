@@ -88,7 +88,15 @@ return [
     | Example: [\Enlightn\Enlightn\Analyzers\Security\XSSAnalyzer::class].
     |
     */
-    'dont_report' => [],
+    'dont_report' => [
+        Enlightn\Enlightn\Analyzers\Reliability\EnvFileAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Reliability\CachePrefixAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Performance\CacheHeaderAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Reliability\EnvExampleAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Performance\QueueDriverAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Reliability\EnvVariableAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Performance\SessionDriverAnalyze::class,
+    ],
 
     /*
     |--------------------------------------------------------------------------
