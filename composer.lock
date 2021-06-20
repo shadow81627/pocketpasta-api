@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dec7d601691696e12ea0679aecf17bbd",
+    "content-hash": "2dcb5ceabcae97b0188bfde8219f5a9e",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3790,16 +3790,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v9.0.0",
+            "version": "v9.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "aec8fb9df550cb9b1aade83a848ca0b3665ac416"
+                "reference": "ccd34d0efd99489059e3e2bcd223aaa360af62cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/aec8fb9df550cb9b1aade83a848ca0b3665ac416",
-                "reference": "aec8fb9df550cb9b1aade83a848ca0b3665ac416",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/ccd34d0efd99489059e3e2bcd223aaa360af62cf",
+                "reference": "ccd34d0efd99489059e3e2bcd223aaa360af62cf",
                 "shasum": ""
             },
             "require": {
@@ -3858,7 +3858,7 @@
                 "issues": "https://github.com/laravel/scout/issues",
                 "source": "https://github.com/laravel/scout"
             },
-            "time": "2021-04-27T18:32:11+00:00"
+            "time": "2021-06-15T16:00:14+00:00"
         },
         {
             "name": "laravel/telescope",
