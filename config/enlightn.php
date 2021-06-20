@@ -96,6 +96,8 @@ return [
         Enlightn\Enlightn\Analyzers\Performance\QueueDriverAnalyzer::class,
         Enlightn\Enlightn\Analyzers\Reliability\EnvVariableAnalyzer::class,
         Enlightn\Enlightn\Analyzers\Performance\SessionDriverAnalyze::class,
+        Enlightn\Enlightn\Analyzers\Performance\SessionDriverAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Security\FilePermissionsAnalyzer::class,
     ],
 
     /*
