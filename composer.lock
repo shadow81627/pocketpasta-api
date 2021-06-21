@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2dcb5ceabcae97b0188bfde8219f5a9e",
+    "content-hash": "b9d8c083e744587f4e6fc7c49a549cfc",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -10735,16 +10735,16 @@
         },
         {
             "name": "tightenco/ziggy",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tighten/ziggy.git",
-                "reference": "10d28d654e054f609ba1b78b1a0ba62358088977"
+                "reference": "5bf99821cf37ec32072caa48da0b09b8ab5b4341"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tighten/ziggy/zipball/10d28d654e054f609ba1b78b1a0ba62358088977",
-                "reference": "10d28d654e054f609ba1b78b1a0ba62358088977",
+                "url": "https://api.github.com/repos/tighten/ziggy/zipball/5bf99821cf37ec32072caa48da0b09b8ab5b4341",
+                "reference": "5bf99821cf37ec32072caa48da0b09b8ab5b4341",
                 "shasum": ""
             },
             "require": {
@@ -10795,9 +10795,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tighten/ziggy/issues",
-                "source": "https://github.com/tighten/ziggy/tree/v1.3.0"
+                "source": "https://github.com/tighten/ziggy/tree/v1.3.1"
             },
-            "time": "2021-06-18T00:57:47+00:00"
+            "time": "2021-06-19T00:42:05+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
