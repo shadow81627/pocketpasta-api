@@ -13,13 +13,15 @@ class RemoveStatamicAuthTables extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('super');
-            $table->dropColumn('avatar');
-            $table->dropColumn('preferences');
-            $table->dropColumn('last_login');
-            $table->string('password')->nullable(false)->change();
-        });
+        if (Schema::hasColumn('super', 'avatar', 'preferences', 'last_login', 'password')) {
+            Schema::table('users', function (Blueprint $table) {
+                $table->dropColumn('super');
+                $table->dropColumn('avatar');
+                $table->dropColumn('preferences');
+                $table->dropColumn('last_login');
+                $table->string('password')->nullable(false)->change();
+            });
+        }
 
         Schema::dropIfExists('role_user');
         Schema::dropIfExists('group_user');
