@@ -156,7 +156,6 @@ return [
     // flagged by the License Analyzer.
     'commercial_packages' => [
         'enlightn/enlightnpro',
-        'statamic/cms',
     ],
 
     'allowed_permissions' => [
