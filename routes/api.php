@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use LaravelJsonApi\Laravel\Facades\JsonApiRoute;
 use LaravelJsonApi\Laravel\Http\Controllers\JsonApiController;
-use App\Http\Controllers\Api\V1\ThingController;
+use App\Http\Controllers\Api\V1\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,9 +28,8 @@ JsonApiRoute::server('v1')
     )
     ->prefix('v1')
     ->resources(function ($server) {
-        $server->resource('things', ThingController::class)->actions(function ($actions) {
+        $server->resource('products', ProductController::class)->actions(function ($actions) {
             $actions->get('search');
         });
         $server->resource('tags', JsonApiController::class);
-        $server->resource('products', JsonApiController::class);
     });

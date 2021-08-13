@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Thing;
+use App\Models\Product;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class ThingPolicy
+class ProductPolicy
 {
     use HandlesAuthorization;
 
@@ -25,10 +25,10 @@ class ThingPolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Thing  $thing
+     * @param  \App\Models\Product  $product
      * @return mixed
      */
-    public function view(User $user, Thing $thing)
+    public function view(User $user, Product $product)
     {
         return true;
     }
@@ -48,10 +48,10 @@ class ThingPolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Thing  $thing
+     * @param  \App\Models\Product  $product
      * @return mixed
      */
-    public function update(User $user, Thing $thing)
+    public function update(User $user, Product $product)
     {
         return true;
     }
@@ -60,10 +60,10 @@ class ThingPolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Thing  $thing
+     * @param  \App\Models\Product  $product
      * @return mixed
      */
-    public function delete(User $user, Thing $thing)
+    public function delete(User $user, Product $product)
     {
         return true;
     }
@@ -72,10 +72,10 @@ class ThingPolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Thing  $thing
+     * @param  \App\Models\Product  $product
      * @return mixed
      */
-    public function restore(User $user, Thing $thing)
+    public function restore(User $user, Product $product)
     {
         return true;
     }
@@ -84,10 +84,10 @@ class ThingPolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Thing  $thing
+     * @param  \App\Models\Product  $product
      * @return mixed
      */
-    public function forceDelete(User $user, Thing $thing)
+    public function forceDelete(User $user, Product $product)
     {
         //
     }

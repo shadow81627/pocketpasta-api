@@ -15,8 +15,7 @@ class CreateProductsTable extends Migration
     {
         // https://schema.org/Product
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('thing_id')->constrained();
+            $table->thingFields();
             $table->unsignedBigInteger('gtin13')->unique()->nullable();
             $table->string('sku')->nullable(); // The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
             $table->string('color')->nullable(); // The color of the product. TODO: consider validating with https://github.com/meodai/color-names and manipulating with https://github.com/spatie/color
@@ -25,8 +24,6 @@ class CreateProductsTable extends Migration
             $table->datetime('production_date')->nullable(); // The date of production of the item, e.g. vehicle.
             $table->datetime('purchase_date')->nullable(); // The date the item e.g. vehicle was purchased by the current owner.
             $table->datetime('release_date')->nullable(); // The release date of a product or product model. This can be used to distinguish the exact variant of a product.
-            $table->timestamps();
-            $table->softDeletes();
         });
     }
 

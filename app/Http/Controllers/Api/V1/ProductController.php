@@ -6,9 +6,9 @@ use App\Http\Controllers\Controller;
 use LaravelJsonApi\Core\Responses\DataResponse;
 use LaravelJsonApi\Laravel\Http\Controllers\Actions;
 use LaravelJsonApi\Laravel\Http\Requests\AnonymousCollectionQuery;
-use App\Models\Thing;
+use App\Models\Product;
 
-class ThingController extends Controller
+class ProductController extends Controller
 {
     use Actions\FetchMany;
     use Actions\FetchOne;
@@ -23,6 +23,6 @@ class ThingController extends Controller
 
     public function search(AnonymousCollectionQuery $request)
     {
-        return new DataResponse(Thing::search($request->search)->get());
+        return new DataResponse(Product::search($request->search)->get());
     }
 }
