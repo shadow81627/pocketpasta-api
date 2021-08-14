@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "636cdd75f2f3d4ebf6d2896429c786e5",
+    "content-hash": "3a422efb987c86e69ebb6839fd6e3df3",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -11177,20 +11177,20 @@
         },
         {
             "name": "laravel-json-api/testing",
-            "version": "v1.0.0-beta.1",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/testing.git",
-                "reference": "dc0425a12b06aff714035fa7ecc0095b7f1d4209"
+                "reference": "c5f8e2de98b577f38b8ab4656a22edf46a452724"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/testing/zipball/dc0425a12b06aff714035fa7ecc0095b7f1d4209",
-                "reference": "dc0425a12b06aff714035fa7ecc0095b7f1d4209",
+                "url": "https://api.github.com/repos/laravel-json-api/testing/zipball/c5f8e2de98b577f38b8ab4656a22edf46a452724",
+                "reference": "c5f8e2de98b577f38b8ab4656a22edf46a452724",
                 "shasum": ""
             },
             "require": {
-                "cloudcreativity/json-api-testing": "^3.2",
+                "cloudcreativity/json-api-testing": "^3.3",
                 "ext-json": "*",
                 "illuminate/http": "^8.0",
                 "illuminate/support": "^8.0",
@@ -11236,9 +11236,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/testing/issues",
-                "source": "https://github.com/laravel-json-api/testing/tree/v1.0.0-beta.1"
+                "source": "https://github.com/laravel-json-api/testing/tree/v1.0.0"
             },
-            "time": "2021-03-30T09:48:05+00:00"
+            "time": "2021-07-31T18:35:16+00:00"
         },
         {
             "name": "laravel/sail",
