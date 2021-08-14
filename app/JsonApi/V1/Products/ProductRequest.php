@@ -17,7 +17,10 @@ class ProductRequest extends ResourceRequest
     public function rules(): array
     {
         return [
-            'thing' => ['required', JsonApiRule::toOne()],
+            'name' => ['required', 'string'],
+            'description' => ['required', 'string'],
+            'additional_attributes' => ['nullable'],
+
             'gtin13' => ['nullable', 'string'],
             'sku' => ['nullable', 'string'],
             'color' => ['nullable', 'string'],

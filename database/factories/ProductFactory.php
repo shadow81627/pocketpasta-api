@@ -22,7 +22,11 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            'thing_id' => $this->faker->unique()->randomElement(\App\Models\Thing::all()->pluck('id')),
+            'name' => $this->faker->sentence(),
+            'description' => $this->faker->realText(),
+            'additional_attributes' => [$this->faker->sentence() => $this->faker->sentence()],
+            'tags' => [$this->faker->sentence()],
+
             'gtin13' => $this->faker->unique()->ean13(),
             'color' => $this->faker->hexColor(),
             'sku' => $this->faker->word(),

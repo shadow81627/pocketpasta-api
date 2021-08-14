@@ -12,6 +12,8 @@ use LaravelJsonApi\Eloquent\Schema;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Fields\Relations\HasManyThrough;
 use LaravelJsonApi\Eloquent\Fields\Relations\BelongsTo;
+use LaravelJsonApi\Eloquent\Fields\Relations\HasMany;
+use LaravelJsonApi\Eloquent\Fields\ArrayHash;
 
 class ProductSchema extends Schema
 {
@@ -32,6 +34,12 @@ class ProductSchema extends Schema
     {
         return [
             ID::make(),
+            Str::make('slug'),
+            Str::make('name'),
+            Str::make('description'),
+            ArrayHash::make('additional_attributes')->sortKeys(),
+            HasMany::make('tags'),
+
             Str::make('gtin13'),
             Str::make('sku'),
             Str::make('color'),
@@ -43,7 +51,6 @@ class ProductSchema extends Schema
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
             HasManyThrough::make('tags'),
-            BelongsTo::make('thing')->mustValidate(),
         ];
     }
 

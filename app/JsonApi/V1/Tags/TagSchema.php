@@ -35,7 +35,7 @@ class TagSchema extends Schema
             Str::make('name'),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
-            BelongsToMany::make('things'),
+            BelongsToMany::make('products'),
         ];
     }
 

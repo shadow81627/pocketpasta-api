@@ -32,7 +32,6 @@ class Server extends BaseServer
     protected function allSchemas(): array
     {
         return [
-            Things\ThingSchema::class,
             Tags\TagSchema::class,
             Products\ProductSchema::class,
         ];
