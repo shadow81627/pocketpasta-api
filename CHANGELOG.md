@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.81](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.80...v1.7.81) (2021-08-14)
+
+### Bug Fixes
+
+- **deps:** update lock file ([493442d](https://github.com/shadow81627/pocketpasta-api/commit/493442daacffdd2fd050dce694364d21c5383d2f))
+
 ## [1.7.80](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.79...v1.7.80) (2021-08-14)
 
 ### Bug Fixes
