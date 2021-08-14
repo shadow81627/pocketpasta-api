@@ -19,7 +19,7 @@ class ProductRequest extends ResourceRequest
         return [
             'name' => ['required', 'string'],
             'description' => ['required', 'string'],
-            'extra_attributes' => ['nullable'],
+            'additional_attributes' => ['nullable'],
 
             'gtin13' => ['nullable', 'string'],
             'sku' => ['nullable', 'string'],

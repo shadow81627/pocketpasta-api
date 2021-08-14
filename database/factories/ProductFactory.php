@@ -24,7 +24,7 @@ class ProductFactory extends Factory
         return [
             'name' => $this->faker->sentence(),
             'description' => $this->faker->realText(),
-            'extra_attributes' => [$this->faker->sentence() => $this->faker->sentence()],
+            'additional_attributes' => [$this->faker->sentence() => $this->faker->sentence()],
             'tags' => [$this->faker->sentence()],
 
             'gtin13' => $this->faker->unique()->ean13(),

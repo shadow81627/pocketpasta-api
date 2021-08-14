@@ -11,9 +11,7 @@ trait Thingable
             'slug',
             'name',
             'description',
-            'extra_attributes',
+            'additional_attributes',
         );
-
-        $this->casts['extra_attributes'] = AsArrayObject::class;
     }
 }

@@ -15,7 +15,9 @@ use Spatie\Activitylog\Traits\LogsActivity;
 use Dyrynda\Database\Support\CascadeSoftDeletes;
 use App\Traits\ClearsResponseCache;
 use App\Traits\Thingable;
+use App\Traits\HasSchemalessAttributes;
 use Spatie\Activitylog\LogOptions;
+use Spatie\SchemalessAttributes\SchemalessAttributesTrait;
 
 // https://schema.org/Product
 class Product extends Model
@@ -31,6 +33,8 @@ class Product extends Model
     use LogsActivity;
     use ClearsResponseCache;
     use CascadeSoftDeletes;
+    use SchemalessAttributesTrait;
+    use HasSchemalessAttributes;
     use Thingable;
 
     /**

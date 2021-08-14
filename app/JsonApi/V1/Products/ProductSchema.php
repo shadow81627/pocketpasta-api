@@ -37,7 +37,7 @@ class ProductSchema extends Schema
             Str::make('slug'),
             Str::make('name'),
             Str::make('description'),
-            ArrayHash::make('extra_attributes')->sortKeys(),
+            ArrayHash::make('additional_attributes')->sortKeys(),
             HasMany::make('tags'),
 
             Str::make('gtin13'),

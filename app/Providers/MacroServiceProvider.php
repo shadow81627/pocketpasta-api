@@ -30,7 +30,7 @@ class MacroServiceProvider extends ServiceProvider
             $this->string('slug')->unique();
             $this->string('name');
             $this->string('description')->nullable();
-            $this->json('extra_attributes')->nullable();
+            $this->json('additional_attributes')->nullable();
             $this->timestamps();
             $this->softDeletes();
         });
