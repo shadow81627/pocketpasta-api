@@ -1,4 +1,4 @@
-# cp .env.example .env
+cp .env.example .env
 php artisan clear-compiled
 composer dumpautoload -o
 php artisan optimize
