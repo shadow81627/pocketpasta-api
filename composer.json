@@ -34,7 +34,6 @@
         "spatie/laravel-responsecache": "7.1.0",
         "spatie/laravel-sluggable": "3.1.0",
         "spatie/laravel-tags": "4.0.3",
-        "statamic/cms": "3.1.25",
         "staudenmeir/eloquent-eager-limit": "1.6.1",
         "staudenmeir/eloquent-has-many-deep": "1.13.1",
         "tightenco/ziggy": "1.3.1"
@@ -86,13 +85,11 @@
         "lint:fix": "phpcbf",
         "enlightn": "php artisan enlightn --report",
         "pre-update-cmd": [
-            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd",
             "@php artisan telescope:publish --ansi"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php artisan statamic:install --ansi"
+            "@php artisan package:discover --ansi"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
