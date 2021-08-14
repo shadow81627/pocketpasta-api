@@ -24,7 +24,6 @@ class MacroServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
         Blueprint::macro('thingFields', function () {
             /** @var Blueprint $this */
             $this->id();
