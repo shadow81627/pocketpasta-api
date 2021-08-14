@@ -1,5 +1,12 @@
 # Releases
 
+## [1.7.82](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.81...v1.7.82) (2021-08-14)
+
+### Bug Fixes
+
+- **product request:** gtin13 number ([41b00f4](https://github.com/shadow81627/pocketpasta-api/commit/41b00f45ac92ad44eb3002c4e41d362c36356b7f))
+- **product schema:** camel case ([c2fef1a](https://github.com/shadow81627/pocketpasta-api/commit/c2fef1a8ab31235d390ea09acea51a90f884b170))
+
 ## [1.7.81](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.80...v1.7.81) (2021-08-14)
 
 ### Bug Fixes
