@@ -1,5 +1,11 @@
 # Releases
 
+## [1.7.79](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.78...v1.7.79) (2021-08-14)
+
+### Bug Fixes
+
+- **deps:** pin dependencies ([#281](https://github.com/shadow81627/pocketpasta-api/issues/281)) ([d015d27](https://github.com/shadow81627/pocketpasta-api/commit/d015d27ac7e61db16b4f468947035ce4253df5d5))
+
 ## [1.7.78](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.77...v1.7.78) (2021-06-21)
 
 ### Bug Fixes
