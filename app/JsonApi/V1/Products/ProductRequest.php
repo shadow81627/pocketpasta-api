@@ -21,7 +21,7 @@ class ProductRequest extends ResourceRequest
             'description' => ['required', 'string'],
             'additional_attributes' => ['nullable'],
 
-            'gtin13' => ['nullable', 'string'],
+            'gtin13' => ['nullable', 'number'],
             'sku' => ['nullable', 'string'],
             'color' => ['nullable', 'string'],
             'pattern' => ['nullable', 'string'],
