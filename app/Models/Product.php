@@ -54,6 +54,11 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [
+        'slug',
+        'name',
+        'description',
+        'additional_attributes',
+
         'gtin',
         'size',
         'sku',
@@ -63,6 +68,9 @@ class Product extends Model
         'production_date',
         'purchase_date',
         'release_date',
+
+        'created_at',
+        'updated_at',
     ];
 
     /**
