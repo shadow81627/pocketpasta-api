@@ -40,7 +40,7 @@ class ProductsImportCommand extends Command
     public function handle()
     {
         $this->output->title('Starting import');
-        (new ProductsImport)->withOutput($this->output)->import('imports/openfoodfacts_search_coles.csv');
+        (new ProductsImport)->queue('imports/openfoodfacts_search_coles.csv')->allOnQueue('imports');
         $this->output->success('Import successful');
     }
 }
