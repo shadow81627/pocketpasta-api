@@ -37,10 +37,11 @@ class ProductsImportCommand extends Command
      *
      * @return int
      */
-    public function handle()
+    public function handle(): int
     {
         $this->output->title('Starting import');
         (new ProductsImport)->queue('imports/openfoodfacts_search_coles.csv')->allOnQueue('imports');
         $this->output->success('Import successful');
+        return 0;
     }
 }
