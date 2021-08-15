@@ -16,7 +16,7 @@ class ProductSeeder extends Seeder
         \App\Models\Product::updateOrCreate([
             'name' => 'Annalisa Tomatoes Peeled 400g',
             'description' => 'Annalisa Italian Peeled Tomatoes In Tomato Juice a 100% Italian Tomatoes.',
-            'gtin13' => '8002560200564',
+            'gtin' => '8002560200564',
         ]);
 
         \App\Models\Product::factory(10)->create();

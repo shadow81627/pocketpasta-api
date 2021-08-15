@@ -54,7 +54,8 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [
-        'gtin13',
+        'gtin',
+        'size',
         'sku',
         'color',
         'pattern',

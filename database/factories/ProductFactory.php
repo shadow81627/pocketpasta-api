@@ -27,8 +27,9 @@ class ProductFactory extends Factory
             'additional_attributes' => [$this->faker->sentence() => $this->faker->sentence()],
             'tags' => [$this->faker->sentence()],
 
-            'gtin13' => $this->faker->unique()->ean13(),
+            'gtin' => $this->faker->unique()->ean13(),
             'color' => $this->faker->hexColor(),
+            'size' => $this->faker->numberBetween(1, 5000) . ' ' . $this->faker->randomElement(array('g', 'kg', 'ml', 'L', 'pack')),
             'sku' => $this->faker->word(),
             'pattern' => $this->faker->word(),
             'production_date' => $this->faker->dateTime(),

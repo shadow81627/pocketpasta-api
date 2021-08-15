@@ -40,7 +40,8 @@ class ProductSchema extends Schema
             ArrayHash::make('additionalAttributes')->sortKeys(),
             HasMany::make('tags'),
 
-            Str::make('gtin13'),
+            Str::make('gtin'),
+            Str::make('size'),
             Str::make('sku'),
             Str::make('color'),
             Str::make('pattern'),
