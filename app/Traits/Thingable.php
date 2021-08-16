@@ -8,7 +8,6 @@ trait Thingable
     {
         array_push(
             $this->fillable,
-            'slug',
             'name',
             'description',
             'additional_attributes',

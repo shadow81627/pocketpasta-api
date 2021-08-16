@@ -2,6 +2,7 @@
 
 namespace App\Imports;
 
+use App\Models\Organization;
 use App\Models\Product;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Maatwebsite\Excel\Concerns\ToModel;
@@ -58,12 +59,15 @@ class ProductsImport implements
      */
     public function model(array $row)
     {
+        $brand = new Organization(['name' => $row['brands'] ? explode(",", $row['brands']) : null]);
         return new Product([
             'name' => $row['name'] ?? $row['product_name'],
             'gtin' => $row['gtin'] ?? $row['code'],
             'size' => $row['size'] ?? $row['quantity'],
             'created_at' => $row['created_at'] ?? $row['created_t'],
             'updated_at' => $row['updated_at'] ?? $row['last_modified_t'],
+
+            'brand' => $brand,
         ]);
     }
 

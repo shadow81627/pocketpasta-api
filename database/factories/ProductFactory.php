@@ -36,6 +36,8 @@ class ProductFactory extends Factory
             'purchase_date' => $this->faker->dateTime(),
             'release_date' => $this->faker->dateTime(),
             'slogan' => $this->faker->sentence(),
+
+            'organization_id' =>\App\Models\Organization::factory()
         ];
     }
 }
