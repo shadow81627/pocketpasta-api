@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ac7d129a6491ea9da07a769770155d0",
+    "content-hash": "22503c35a41b83c31ddf2457c9d13ac0",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2354,16 +2354,16 @@
         },
         {
             "name": "inertiajs/inertia-laravel",
-            "version": "v0.4.2",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inertiajs/inertia-laravel.git",
-                "reference": "7ea4e730d82b90b658ca3e863968d2ffd6cc4d06"
+                "reference": "3a08d87bc8de80f774f889918b696e2d3a2d11f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/7ea4e730d82b90b658ca3e863968d2ffd6cc4d06",
-                "reference": "7ea4e730d82b90b658ca3e863968d2ffd6cc4d06",
+                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/3a08d87bc8de80f774f889918b696e2d3a2d11f1",
+                "reference": "3a08d87bc8de80f774f889918b696e2d3a2d11f1",
                 "shasum": ""
             },
             "require": {
@@ -2410,7 +2410,7 @@
             ],
             "support": {
                 "issues": "https://github.com/inertiajs/inertia-laravel/issues",
-                "source": "https://github.com/inertiajs/inertia-laravel/tree/v0.4.2"
+                "source": "https://github.com/inertiajs/inertia-laravel/tree/v0.4.4"
             },
             "funding": [
                 {
@@ -2418,7 +2418,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-10T09:56:05+00:00"
+            "time": "2021-07-30T10:32:53+00:00"
         },
         {
             "name": "jaybizzle/crawler-detect",
