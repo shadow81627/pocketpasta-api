@@ -87,8 +87,7 @@ class Product extends Model
             ->generateSlugsFrom('name')
             ->saveSlugsTo('slug')
             ->doNotGenerateSlugsOnUpdate()
-            ->preventOverwrite()
-            ->slugsShouldBeNoLongerThan(50);
+            ->preventOverwrite();
     }
 
     public function brand()
