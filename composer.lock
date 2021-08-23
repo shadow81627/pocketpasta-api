@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d413ca687e8de3e144e466247d260452",
+    "content-hash": "b00b5450f73b9cfee9fd61a3c363159a",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3467,16 +3467,16 @@
         },
         {
             "name": "laravel/horizon",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/horizon.git",
-                "reference": "50dc53b105ec612cf1a87e89fffd21cc0a43003c"
+                "reference": "d0a7fd91f26e95b1b941b33af36a736b70a29505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/horizon/zipball/50dc53b105ec612cf1a87e89fffd21cc0a43003c",
-                "reference": "50dc53b105ec612cf1a87e89fffd21cc0a43003c",
+                "url": "https://api.github.com/repos/laravel/horizon/zipball/d0a7fd91f26e95b1b941b33af36a736b70a29505",
+                "reference": "d0a7fd91f26e95b1b941b33af36a736b70a29505",
                 "shasum": ""
             },
             "require": {
@@ -3538,9 +3538,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/horizon/issues",
-                "source": "https://github.com/laravel/horizon/tree/v5.7.9"
+                "source": "https://github.com/laravel/horizon/tree/v5.7.11"
             },
-            "time": "2021-06-08T14:17:37+00:00"
+            "time": "2021-08-17T15:30:59+00:00"
         },
         {
             "name": "laravel/jetstream",
