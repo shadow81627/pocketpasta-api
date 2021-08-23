@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.1](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.0...v1.8.1) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** pin dependencies ([#292](https://github.com/shadow81627/pocketpasta-api/issues/292)) ([9fae6f8](https://github.com/shadow81627/pocketpasta-api/commit/9fae6f80c5b2d676a22794ecb8d805eb5ea2eaf9))
+
 ## [1.8.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.82...v1.8.0) (2021-08-15)
 
 ### Features
