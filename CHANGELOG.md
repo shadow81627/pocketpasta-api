@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.3](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.2...v1.8.3) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** update dependency doctrine/dbal to v3.1.1 ([8b25874](https://github.com/shadow81627/pocketpasta-api/commit/8b25874abf86da582552e61f13728ba4f12d8ad5))
+
 ## [1.8.2](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.1...v1.8.2) (2021-08-23)
 
 ### Bug Fixes
