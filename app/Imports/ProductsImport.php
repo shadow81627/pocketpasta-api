@@ -41,6 +41,9 @@ class ProductsImport implements
                 'required',
                 'string',
             ],
+            'gtin' => [
+                'digits_between:8,14',
+            ]
         ];
     }
 
