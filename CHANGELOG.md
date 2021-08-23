@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.4...v1.8.5) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** update dependency spatie/eloquent-sortable to v4 ([4f2c125](https://github.com/shadow81627/pocketpasta-api/commit/4f2c125fac44148afb050df556444d8ff72b5e56))
+
 ## [1.8.4](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.3...v1.8.4) (2021-08-23)
 
 ### Bug Fixes
