@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.6](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.5...v1.8.6) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/horizon to v5.7.11 ([092d3fd](https://github.com/shadow81627/pocketpasta-api/commit/092d3fd9687005038a3f2f37997a14878cedfa1d))
+
 ## [1.8.5](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.4...v1.8.5) (2021-08-23)
 
 ### Bug Fixes
