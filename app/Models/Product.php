@@ -93,6 +93,6 @@ class Product extends Model
 
     public function brand()
     {
-        return $this->belongsTo(Organization::class, 'organization_id');
+        return $this->belongsTo(Organization::class);
     }
 }
