@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.0](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.82...v1.8.0) (2021-08-15)
+
+### Features
+
+- import products ([#290](https://github.com/shadow81627/pocketpasta-api/issues/290)) ([4028f7b](https://github.com/shadow81627/pocketpasta-api/commit/4028f7bbd1258ab0c4c4c15a30489efa7b596c67))
+
 ## [1.7.82](https://github.com/shadow81627/pocketpasta-api/compare/v1.7.81...v1.7.82) (2021-08-14)
 
 ### Bug Fixes
