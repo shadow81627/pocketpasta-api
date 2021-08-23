@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.7](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.6...v1.8.7) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** update dependency meilisearch/meilisearch-php to v0.18.3 ([eedc5aa](https://github.com/shadow81627/pocketpasta-api/commit/eedc5aaf67925bc5045153be49dd54e8d6c4fd21))
+
 ## [1.8.6](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.5...v1.8.6) (2021-08-23)
 
 ### Bug Fixes
