@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b00b5450f73b9cfee9fd61a3c363159a",
+    "content-hash": "42d57a02b111f215cf4fad18e8d6fe29",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -4448,16 +4448,16 @@
         },
         {
             "name": "meilisearch/meilisearch-php",
-            "version": "v0.18.2",
+            "version": "v0.18.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/meilisearch/meilisearch-php.git",
-                "reference": "f25ee49b658f407af3d3f1f9a402997e7974b6bb"
+                "reference": "8d649236dde23292d2f4b637dc3f71d1d56437f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meilisearch/meilisearch-php/zipball/f25ee49b658f407af3d3f1f9a402997e7974b6bb",
-                "reference": "f25ee49b658f407af3d3f1f9a402997e7974b6bb",
+                "url": "https://api.github.com/repos/meilisearch/meilisearch-php/zipball/8d649236dde23292d2f4b637dc3f71d1d56437f5",
+                "reference": "8d649236dde23292d2f4b637dc3f71d1d56437f5",
                 "shasum": ""
             },
             "require": {
@@ -4509,9 +4509,9 @@
             ],
             "support": {
                 "issues": "https://github.com/meilisearch/meilisearch-php/issues",
-                "source": "https://github.com/meilisearch/meilisearch-php/tree/v0.18.2"
+                "source": "https://github.com/meilisearch/meilisearch-php/tree/v0.18.3"
             },
-            "time": "2021-06-01T11:43:22+00:00"
+            "time": "2021-06-30T14:17:44+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
