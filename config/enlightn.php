@@ -98,6 +98,7 @@ return [
         Enlightn\Enlightn\Analyzers\Performance\SessionDriverAnalyze::class,
         Enlightn\Enlightn\Analyzers\Performance\SessionDriverAnalyzer::class,
         Enlightn\Enlightn\Analyzers\Security\FilePermissionsAnalyzer::class,
+        Enlightn\Enlightn\Analyzers\Security\StableDependencyAnalyzer::class,
     ],
 
     /*
