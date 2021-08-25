@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.15](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.14...v1.8.15) (2021-08-25)
+
+### Bug Fixes
+
+- **deps:** update dependency staudenmeir/eloquent-has-many-deep to v1.14.3 ([735f805](https://github.com/shadow81627/pocketpasta-api/commit/735f805229e5be530c1edca5c032b3f3442ca199))
+
 ## [1.8.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.13...v1.8.14) (2021-08-25)
 
 ### Bug Fixes
