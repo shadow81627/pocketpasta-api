@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb9e716761c83b6effa4bd224e7a8643",
+    "content-hash": "e246f0103f1713a92b98cde8a6c982de",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7078,16 +7078,16 @@
         },
         {
             "name": "spatie/laravel-activitylog",
-            "version": "4.0.0",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-activitylog.git",
-                "reference": "f1e8e8ea2cb85945d5ac770e979b0381cc82da52"
+                "reference": "38701e699f308bcb4a31702f3859c2dfd48d385f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/f1e8e8ea2cb85945d5ac770e979b0381cc82da52",
-                "reference": "f1e8e8ea2cb85945d5ac770e979b0381cc82da52",
+                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/38701e699f308bcb4a31702f3859c2dfd48d385f",
+                "reference": "38701e699f308bcb4a31702f3859c2dfd48d385f",
                 "shasum": ""
             },
             "require": {
@@ -7153,7 +7153,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-activitylog/issues",
-                "source": "https://github.com/spatie/laravel-activitylog/tree/4.0.0"
+                "source": "https://github.com/spatie/laravel-activitylog/tree/4.1.1"
             },
             "funding": [
                 {
@@ -7165,7 +7165,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-04T12:36:15+00:00"
+            "time": "2021-07-23T14:01:24+00:00"
         },
         {
             "name": "spatie/laravel-http-logger",
