@@ -1,5 +1,11 @@
 # Releases
 
+## [1.8.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.13...v1.8.14) (2021-08-25)
+
+### Bug Fixes
+
+- **deps:** update dependency spatie/laravel-activitylog to v4.1.1 ([b6caee8](https://github.com/shadow81627/pocketpasta-api/commit/b6caee85c369ab603a6fcd3b79e53b067c3973f0))
+
 ## [1.8.13](https://github.com/shadow81627/pocketpasta-api/compare/v1.8.12...v1.8.13) (2021-08-25)
 
 ### Bug Fixes
