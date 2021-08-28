@@ -34,6 +34,7 @@ class Server extends BaseServer
         return [
             Tags\TagSchema::class,
             Products\ProductSchema::class,
+            Organizations\OrganizationSchema::class,
         ];
     }
 }

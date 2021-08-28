@@ -1,8 +1,8 @@
 <?php
 
-namespace App\JsonApi\V1\Products;
+namespace App\JsonApi\V1\Organizations;
 
-use App\Models\Product;
+use App\Models\Organization;
 use LaravelJsonApi\Eloquent\Contracts\Paginator;
 use LaravelJsonApi\Eloquent\Fields\DateTime;
 use LaravelJsonApi\Eloquent\Fields\ID;
@@ -11,10 +11,9 @@ use LaravelJsonApi\Eloquent\Pagination\PagePagination;
 use LaravelJsonApi\Eloquent\Schema;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Fields\Relations\HasMany;
-use LaravelJsonApi\Eloquent\Fields\Relations\BelongsTo;
 use LaravelJsonApi\Eloquent\Fields\ArrayHash;
 
-class ProductSchema extends Schema
+class OrganizationSchema extends Schema
 {
 
     /**
@@ -22,7 +21,7 @@ class ProductSchema extends Schema
      *
      * @var string
      */
-    public static string $model = Product::class;
+    public static string $model = Organization::class;
 
     /**
      * Get the resource fields.
@@ -38,18 +37,6 @@ class ProductSchema extends Schema
             Str::make('description'),
             ArrayHash::make('additionalAttributes')->sortKeys(),
             HasMany::make('tags'),
-
-            Str::make('gtin'),
-            Str::make('size'),
-            Str::make('sku'),
-            Str::make('color'),
-            Str::make('pattern'),
-            Str::make('slogan'),
-            DateTime::make('productionDate'),
-            DateTime::make('purchaseDate'),
-            DateTime::make('releaseDate'),
-
-            BelongsTo::make('brand')->type('organizations'),
 
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
@@ -77,4 +64,5 @@ class ProductSchema extends Schema
     {
         return PagePagination::make();
     }
+
 }

@@ -32,4 +32,5 @@ JsonApiRoute::server('v1')
             $actions->get('search');
         });
         $server->resource('tags', JsonApiController::class);
+        $server->resource('organizations', JsonApiController::class);
     });
