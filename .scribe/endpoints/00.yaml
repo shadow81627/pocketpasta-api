@@ -1,0 +1,285 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/user
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=FYLvaqpZY6x0ES1gLNGh0Pp5T4hCuAqaORuL0ZAN; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/products
+    metadata:
+      title: 'Fetch zero to many JSON API resources.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=T0qtl1w13ceYwIILx1Z8j6DTrRzkPUfYaYVz4BKi; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/products
+    metadata:
+      title: 'Create a new resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Fetch zero to one JSON API resource by id.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 10
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=4o5XWeFpFvxextRKf9UrSKZEnCjAoTHCuagPd0DH; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Update an existing resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 15
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Destroy a resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 14
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/products/search
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=Yfn0kjXGRerAE2XReZAJRKH7icMnWTLdEUxCSh72; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/tags
+    metadata:
+      title: 'Fetch zero to many JSON API resources.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=LCHiqFtTkbGUgf6vNDl2d9pTQxcoeY0L43yKHTKu; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/tags
+    metadata:
+      title: 'Create a new resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Fetch zero to one JSON API resource by id.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: eaque
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          vary: Origin
+          set-cookie: 'pocketpasta_session=kLSHkRS99PsSNyYDT1YE5PpiK3txQV09LQ1JZdr8; expires=Sat, 28-Aug-2021 09:08:17 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Update an existing resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: minus
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Destroy a resource.'
+      description: ''
+      authenticated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: vel
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
