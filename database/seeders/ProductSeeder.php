@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\Product;
 
 class ProductSeeder extends Seeder
 {
@@ -13,12 +14,12 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Product::updateOrCreate([
+        Product::updateOrCreate([
             'name' => 'Annalisa Tomatoes Peeled 400g',
             'description' => 'Annalisa Italian Peeled Tomatoes In Tomato Juice a 100% Italian Tomatoes.',
             'gtin' => '8002560200564',
         ]);
 
-        \App\Models\Product::factory(10)->create();
+        Product::factory()->count(10)->create();
     }
 }

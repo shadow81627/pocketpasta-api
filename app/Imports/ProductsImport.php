@@ -2,6 +2,7 @@
 
 namespace App\Imports;
 
+use App\Models\Organization;
 use App\Models\Product;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Maatwebsite\Excel\Concerns\ToModel;
@@ -40,6 +41,9 @@ class ProductsImport implements
                 'required',
                 'string',
             ],
+            'gtin' => [
+                'digits_between:8,14',
+            ]
         ];
     }
 
@@ -58,13 +62,23 @@ class ProductsImport implements
      */
     public function model(array $row)
     {
-        return new Product([
-            'name' => $row['name'] ?? $row['product_name'],
-            'gtin' => $row['gtin'] ?? $row['code'],
-            'size' => $row['size'] ?? $row['quantity'],
-            'created_at' => $row['created_at'] ?? $row['created_t'],
-            'updated_at' => $row['updated_at'] ?? $row['last_modified_t'],
-        ]);
+        $brand = null;
+        if ($row['brands']) {
+            $brand = Organization::firstOrCreate(['name' => explode(",", $row['brands'])[0]]);
+        }
+        $product = Product::firstOrNew([
+                'name' => $row['name'] ?? $row['product_name'],
+                'gtin' => $row['gtin'] ?? $row['code'],
+            ],
+            [
+                'size' => $row['size'] ?? $row['quantity'],
+                'created_at' => $row['created_at'] ?? $row['created_t'],
+                'updated_at' => $row['updated_at'] ?? $row['last_modified_t'],
+            ]
+        );
+        $product->brand()->associate($brand);
+        $product->generateSlug();
+        return $product;
     }
 
     public function batchSize(): int
