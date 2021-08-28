@@ -14,16 +14,23 @@ paths:
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
       responses:
@@ -34,194 +41,29 @@ paths:
               schema:
                 type: object
                 example:
-                  message: Unauthenticated.
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
                 properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
-  /api/v1/products:
-    get:
-      summary: 'Fetch zero to many JSON API resources.'
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses:
-        401:
-          description: ''
-          content:
-            application/json:
-              schema:
-                type: object
-                example:
-                  message: Unauthenticated.
-                properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
-      tags:
-        - Endpoints
-      security: []
-    post:
-      summary: 'Create a new resource.'
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses: {  }
-      tags:
-        - Endpoints
-      security: []
-  '/api/v1/products/{id}':
-    get:
-      summary: 'Fetch zero to one JSON API resource by id.'
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses:
-        401:
-          description: ''
-          content:
-            application/json:
-              schema:
-                type: object
-                example:
-                  message: Unauthenticated.
-                properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
-      tags:
-        - Endpoints
-      security: []
-    patch:
-      summary: 'Update an existing resource.'
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses: {  }
-      tags:
-        - Endpoints
-      security: []
-    delete:
-      summary: 'Destroy a resource.'
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses: {  }
-      tags:
-        - Endpoints
-      security: []
-    parameters:
-      -
-        in: path
-        name: id
-        description: 'The ID of the product.'
-        example: 10
-        required: true
-        schema:
-          type: integer
-  /api/v1/products/search:
-    get:
-      summary: ''
-      description: ''
-      parameters:
-        -
-          in: header
-          name: Content-Type
-          description: ''
-          example: application/json
-          schema:
-            type: string
-        -
-          in: header
-          name: Accept
-          description: ''
-          example: application/json
-          schema:
-            type: string
-      responses:
-        401:
-          description: ''
-          content:
-            application/json:
-              schema:
-                type: object
-                example:
-                  message: Unauthenticated.
-                properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
-      tags:
-        - Endpoints
-      security: []
   /api/v1/tags:
     get:
       summary: 'Fetch zero to many JSON API resources.'
@@ -229,16 +71,23 @@ paths:
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
       responses:
@@ -249,36 +98,85 @@ paths:
               schema:
                 type: object
                 example:
-                  message: Unauthenticated.
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
                 properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
     post:
       summary: 'Create a new resource.'
       description: ''
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
-      responses: {  }
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
   '/api/v1/tags/{id}':
     get:
       summary: 'Fetch zero to one JSON API resource by id.'
@@ -286,16 +184,23 @@ paths:
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
       responses:
@@ -306,68 +211,511 @@ paths:
               schema:
                 type: object
                 example:
-                  message: Unauthenticated.
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
                 properties:
-                  message:
-                    type: string
-                    example: Unauthenticated.
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
     patch:
       summary: 'Update an existing resource.'
       description: ''
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
-      responses: {  }
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
     delete:
       summary: 'Destroy a resource.'
       description: ''
       parameters:
         -
           in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
           name: Content-Type
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
         -
           in: header
           name: Accept
           description: ''
-          example: application/json
+          example: application/vnd.api+json
           schema:
             type: string
-      responses: {  }
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
       tags:
         - Endpoints
-      security: []
     parameters:
       -
         in: path
         name: id
         description: 'The ID of the tag.'
-        example: eaque
+        example: perferendis
         required: true
         schema:
           type: string
+  /api/v1/products:
+    get:
+      summary: 'Fetch zero to many JSON API resources.'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
+    post:
+      summary: 'Create a new resource.'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
+  '/api/v1/products/{id}':
+    get:
+      summary: 'Fetch zero to one JSON API resource by id.'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
+    patch:
+      summary: 'Update an existing resource.'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
+    delete:
+      summary: 'Destroy a resource.'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the product.'
+        example: 14
+        required: true
+        schema:
+          type: integer
+  /api/v1/products/search:
+    get:
+      summary: Search
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Authorization
+          description: ''
+          example: 'Bearer {YOUR_AUTH_KEY}'
+          schema:
+            type: string
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/vnd.api+json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  jsonapi:
+                    version: '1.0'
+                  errors:
+                    -
+                      detail: Unauthenticated.
+                      status: '401'
+                      title: Unauthorized
+                properties:
+                  jsonapi:
+                    type: object
+                    example:
+                      version: '1.0'
+                  errors:
+                    type: array
+                    example:
+                      -
+                        detail: Unauthenticated.
+                        status: '401'
+                        title: Unauthorized
+                    items:
+                      type: object
+      tags:
+        - Product
 tags:
   -
     name: Endpoints
     description: ''
+  -
+    name: Product
+    description: ''
+components:
+  securitySchemes:
+    default:
+      type: http
+      scheme: bearer
+      description: ''
+security:
+  -
+    default: []
