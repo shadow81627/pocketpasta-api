@@ -1,0 +1,177 @@
+name: Product
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/products
+    metadata:
+      title: 'Fetch zero to many JSON API resources.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=xqS3TQCmAquZpCG1QUd2n5l3bkSiWET2K1JGjdQ4; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/products
+    metadata:
+      title: 'Create a new resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=U1wSwQGz7lSuHwKCPk5draSKHdbVCTvZxXO7M5Sr; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Fetch zero to one JSON API resource by id.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 14
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=MHhJ1fyIIGXzxYB9s5LcD0wPdCX71yW6lph6Z8tO; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Update an existing resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 1
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=uUvFQQGSujB56Qy9IYhA4dqmhewVLSbMEJWjxP98; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/products/{id}'
+    metadata:
+      title: 'Destroy a resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the product.'
+        required: true
+        example: 7
+        type: integer
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=hSgXQN8PIWTgZNC0YdSAFXquHV6tuIYWmLl9Box9; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/products/search
+    metadata:
+      title: Search
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=IMi5pYairHIH3wzv3tWMHsCtRiZmEXvwuFdvKxdD; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []

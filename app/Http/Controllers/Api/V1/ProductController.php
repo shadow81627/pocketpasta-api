@@ -8,6 +8,9 @@ use LaravelJsonApi\Laravel\Http\Controllers\Actions;
 use LaravelJsonApi\Laravel\Http\Requests\AnonymousCollectionQuery;
 use App\Models\Product;
 
+/**
+ * @group Product
+ */
 class ProductController extends Controller
 {
     use Actions\FetchMany;
@@ -21,6 +24,9 @@ class ProductController extends Controller
     use Actions\AttachRelationship;
     use Actions\DetachRelationship;
 
+    /**
+     * Search
+     */
     public function search(AnonymousCollectionQuery $request)
     {
         return new DataResponse(Product::search($request->search)->get());

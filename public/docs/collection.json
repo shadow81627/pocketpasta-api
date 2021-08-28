@@ -1,0 +1,682 @@
+{
+    "variable": [
+        {
+            "id": "baseUrl",
+            "key": "baseUrl",
+            "type": "string",
+            "name": "string",
+            "value": "localhost"
+        }
+    ],
+    "info": {
+        "name": "Pocketpasta",
+        "_postman_id": "4a9d36fe-aeba-49c2-a5ca-b0db20f1cef5",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Endpoints",
+            "description": "",
+            "item": [
+                {
+                    "name": "api\/user",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/user",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/user"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=efNCEXhxz0muxxeiSzkGfm3wfSGbhgteAAFjBvFN; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Fetch zero to many JSON API resources.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/tags",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/tags"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=JCerYdnnBhdzoNX9fNVBcPxM98nBMObNoauXoPa3; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Create a new resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/tags",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/tags"
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=9cf0wzs3nfLmD8yzFVEiBsCiFdeFVGwGQ1oIRFbv; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Fetch zero to one JSON API resource by id.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/tags\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/tags\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "perferendis",
+                                    "description": "The ID of the tag."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=oxCf0gpMAggrHJQqHLU014EsOaQHOvW1jgCwDTmy; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Update an existing resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/tags\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/tags\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "dolorum",
+                                    "description": "The ID of the tag."
+                                }
+                            ]
+                        },
+                        "method": "PATCH",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=wKPyx6qfFwncNJFhHoLy3AGNaTxys8d4TOKLDnzF; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Destroy a resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/tags\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/tags\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "corporis",
+                                    "description": "The ID of the tag."
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=llSnyNpUMqRFyga91V6I8Z9UpHy7W57Tg5zJvtjx; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Product",
+            "description": "",
+            "item": [
+                {
+                    "name": "Fetch zero to many JSON API resources.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=xqS3TQCmAquZpCG1QUd2n5l3bkSiWET2K1JGjdQ4; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Create a new resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products"
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=U1wSwQGz7lSuHwKCPk5draSKHdbVCTvZxXO7M5Sr; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Fetch zero to one JSON API resource by id.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "14",
+                                    "description": "The ID of the product."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=MHhJ1fyIIGXzxYB9s5LcD0wPdCX71yW6lph6Z8tO; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Update an existing resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "1",
+                                    "description": "The ID of the product."
+                                }
+                            ]
+                        },
+                        "method": "PATCH",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=uUvFQQGSujB56Qy9IYhA4dqmhewVLSbMEJWjxP98; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Destroy a resource.",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products\/:id",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "7",
+                                    "description": "The ID of the product."
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=hSgXQN8PIWTgZNC0YdSAFXquHV6tuIYWmLl9Box9; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Search",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "{{baseUrl}}",
+                            "path": "api\/v1\/products\/search",
+                            "query": [],
+                            "raw": "http:\/\/{{baseUrl}}\/api\/v1\/products\/search"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/vnd.api+json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/vnd.api+json"
+                            }
+                        ],
+                        "body": null,
+                        "description": ""
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/vnd.api+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "pocketpasta_session=IMi5pYairHIH3wzv3tWMHsCtRiZmEXvwuFdvKxdD; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=\/; domain=.localhost; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"jsonapi\":{\"version\":\"1.0\"},\"errors\":[{\"detail\":\"Unauthenticated.\",\"status\":\"401\",\"title\":\"Unauthorized\"}]}",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "auth": {
+        "type": "bearer"
+    }
+}

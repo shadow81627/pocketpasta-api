@@ -1,0 +1,177 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/user
+    metadata:
+      title: ''
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=efNCEXhxz0muxxeiSzkGfm3wfSGbhgteAAFjBvFN; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/tags
+    metadata:
+      title: 'Fetch zero to many JSON API resources.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=JCerYdnnBhdzoNX9fNVBcPxM98nBMObNoauXoPa3; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/tags
+    metadata:
+      title: 'Create a new resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=9cf0wzs3nfLmD8yzFVEiBsCiFdeFVGwGQ1oIRFbv; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Fetch zero to one JSON API resource by id.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: perferendis
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=oxCf0gpMAggrHJQqHLU014EsOaQHOvW1jgCwDTmy; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Update an existing resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: dolorum
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=wKPyx6qfFwncNJFhHoLy3AGNaTxys8d4TOKLDnzF; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/tags/{id}'
+    metadata:
+      title: 'Destroy a resource.'
+      description: ''
+      authenticated: true
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/vnd.api+json
+      Accept: application/vnd.api+json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the tag.'
+        required: true
+        example: corporis
+        type: string
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"jsonapi":{"version":"1.0"},"errors":[{"detail":"Unauthenticated.","status":"401","title":"Unauthorized"}]}'
+        headers:
+          content-type: application/vnd.api+json
+          cache-control: 'no-cache, private'
+          vary: Origin
+          set-cookie: 'pocketpasta_session=llSnyNpUMqRFyga91V6I8Z9UpHy7W57Tg5zJvtjx; expires=Sat, 28-Aug-2021 09:29:54 GMT; Max-Age=7200; path=/; domain=.localhost; httponly; samesite=lax'
+        description: null
+    responseFields: []
