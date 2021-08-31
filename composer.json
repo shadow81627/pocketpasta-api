@@ -19,7 +19,7 @@
         "guzzlehttp/guzzle": "7.3.0",
         "inertiajs/inertia-laravel": "0.4.4",
         "laravel-json-api/laravel": "1.0.0",
-        "laravel/framework": "8.57.0",
+        "laravel/framework": "8.58.0",
         "laravel/horizon": "5.7.12",
         "laravel/jetstream": "2.3.16",
         "laravel/sanctum": "2.11.2",
