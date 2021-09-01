@@ -1,5 +1,11 @@
 # Releases
 
+## [1.9.7](https://github.com/shadow81627/pocketpasta-api/compare/v1.9.6...v1.9.7) (2021-09-01)
+
+### Bug Fixes
+
+- **deps:** update dependency spatie/laravel-tags to v4.0.4 ([3d56539](https://github.com/shadow81627/pocketpasta-api/commit/3d565395526e6a550141966516df4f4915492bf7))
+
 ## [1.9.6](https://github.com/shadow81627/pocketpasta-api/compare/v1.9.5...v1.9.6) (2021-08-31)
 
 ### Bug Fixes
