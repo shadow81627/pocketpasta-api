@@ -46,7 +46,7 @@
         "fakerphp/faker": "1.16.0",
         "laravel-json-api/testing": "1.0.0",
         "laravel/sail": "1.10.1",
-        "mockery/mockery": "1.4.3",
+        "mockery/mockery": "1.4.4",
         "nunomaduro/collision": "5.9.0",
         "pestphp/pest": "1.18.0",
         "pestphp/pest-plugin-laravel": "1.1",
