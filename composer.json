@@ -20,7 +20,7 @@
         "inertiajs/inertia-laravel": "0.4.4",
         "laravel-json-api/laravel": "1.0.0",
         "laravel/framework": "8.61.0",
-        "laravel/horizon": "5.7.12",
+        "laravel/horizon": "5.7.13",
         "laravel/jetstream": "2.3.16",
         "laravel/sanctum": "2.11.2",
         "laravel/scout": "9.2.8",
