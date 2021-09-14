@@ -1,5 +1,11 @@
 # Releases
 
+## [1.9.14](https://github.com/shadow81627/pocketpasta-api/compare/v1.9.13...v1.9.14) (2021-09-14)
+
+### Bug Fixes
+
+- **deps:** update dependency laravel/scout to v9.2.9 ([52b8dd4](https://github.com/shadow81627/pocketpasta-api/commit/52b8dd4cc1d147b864afb421611b3d079a08b9b1))
+
 ## [1.9.13](https://github.com/shadow81627/pocketpasta-api/compare/v1.9.12...v1.9.13) (2021-09-14)
 
 ### Bug Fixes
