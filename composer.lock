@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19d43ce3711d8344415ac2a41f19494a",
+    "content-hash": "657bbbdeb54534d8a4c70df2163aa085",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3817,16 +3817,16 @@
         },
         {
             "name": "laravel/telescope",
-            "version": "v4.6.3",
+            "version": "v4.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/telescope.git",
-                "reference": "e867543ee251d4da288d63575bfae0be5e99707b"
+                "reference": "e39423d3ee18898eeb1e0adf2fbe7b74a4cc4996"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/telescope/zipball/e867543ee251d4da288d63575bfae0be5e99707b",
-                "reference": "e867543ee251d4da288d63575bfae0be5e99707b",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/e39423d3ee18898eeb1e0adf2fbe7b74a4cc4996",
+                "reference": "e39423d3ee18898eeb1e0adf2fbe7b74a4cc4996",
                 "shasum": ""
             },
             "require": {
@@ -3875,9 +3875,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/telescope/issues",
-                "source": "https://github.com/laravel/telescope/tree/v4.6.3"
+                "source": "https://github.com/laravel/telescope/tree/v4.6.4"
             },
-            "time": "2021-09-14T16:29:51+00:00"
+            "time": "2021-09-16T17:44:49+00:00"
         },
         {
             "name": "laravel/tinker",
