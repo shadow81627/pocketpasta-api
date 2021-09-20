@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94e6a024bacf2cde0b2b4b8057f0aa66",
+    "content-hash": "6a37354fabcf84b65969a99a796d5186",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -12372,16 +12372,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.18.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "60c06365233f8b7f6958799529f42cea7f9fbaf8"
+                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/60c06365233f8b7f6958799529f42cea7f9fbaf8",
-                "reference": "60c06365233f8b7f6958799529f42cea7f9fbaf8",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
+                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
                 "shasum": ""
             },
             "require": {
@@ -12448,7 +12448,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v1.18.0"
+                "source": "https://github.com/pestphp/pest/tree/v1.19.0"
             },
             "funding": [
                 {
@@ -12476,7 +12476,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-08-29T23:05:26+00:00"
+            "time": "2021-09-20T18:30:58+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
