@@ -27,7 +27,7 @@
     "devDependencies": {
         "@inertiajs/inertia": "0.10.1",
         "@inertiajs/inertia-vue": "0.7.2",
-        "@semantic-release/changelog": "5.0.1",
+        "@semantic-release/changelog": "6.0.0",
         "@semantic-release/git": "10.0.0",
         "@tailwindcss/ui": "0.7.2",
         "axios": "0.21.4",
