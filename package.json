@@ -45,7 +45,7 @@
         "@vue/compiler-sfc": "3.2.18",
         "autoprefixer": "10.3.5",
         "laravel-mix": "6.0.31",
-        "postcss": "8.3.7",
+        "postcss": "8.3.8",
         "resolve-url-loader": "4.0.0",
         "tailwindcss": "2.2.15",
         "vue": "3.2.18",
