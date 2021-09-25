@@ -38,7 +38,7 @@
         "spatie/laravel-tags": "4.0.4",
         "staudenmeir/eloquent-eager-limit": "1.6.1",
         "staudenmeir/eloquent-has-many-deep": "1.14.3",
-        "tightenco/ziggy": "1.4.0"
+        "tightenco/ziggy": "1.4.1"
     },
     "require-dev": {
         "cweagans/composer-patches": "1.7.1",
