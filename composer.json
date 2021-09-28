@@ -23,7 +23,7 @@
         "laravel/horizon": "5.7.13",
         "laravel/jetstream": "2.4.1",
         "laravel/sanctum": "2.11.2",
-        "laravel/scout": "9.2.9",
+        "laravel/scout": "9.2.10",
         "laravel/telescope": "4.6.4",
         "laravel/tinker": "2.6.1",
         "maatwebsite/excel": "3.1.33",
