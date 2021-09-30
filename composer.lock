@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a9e8501b0d75334571b0ee52182ea17",
+    "content-hash": "a4e435dec46a8e084efa0eed34607437",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3617,16 +3617,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "bfa133775780e01d7923c81ded9f627d19642202"
+                "reference": "2708f1fd249c88341f7f8e2fc5ac17c35280dec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/bfa133775780e01d7923c81ded9f627d19642202",
-                "reference": "bfa133775780e01d7923c81ded9f627d19642202",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/2708f1fd249c88341f7f8e2fc5ac17c35280dec8",
+                "reference": "2708f1fd249c88341f7f8e2fc5ac17c35280dec8",
                 "shasum": ""
             },
             "require": {
@@ -3679,7 +3679,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2021-09-28T15:22:21+00:00"
+            "time": "2021-09-30T16:12:47+00:00"
         },
         {
             "name": "laravel/sanctum",
