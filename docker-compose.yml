@@ -21,7 +21,7 @@ services:
             - pgsql
             - redis
     pgsql:
-      image: postgres:13
+      image: postgres:14
       ports:
           - '${FORWARD_DB_PORT:-5432}:5432'
       environment:
