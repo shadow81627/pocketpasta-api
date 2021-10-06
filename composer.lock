@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c842172b2408aa2a67eb53ec514d853",
+    "content-hash": "86aa4395afc2f5dcb1c71fcdc41ee3d4",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7453,21 +7453,21 @@
         },
         {
             "name": "spatie/laravel-activitylog",
-            "version": "4.1.1",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-activitylog.git",
-                "reference": "38701e699f308bcb4a31702f3859c2dfd48d385f"
+                "reference": "f6b3a5106b2a3f0ce036b1a49626dbc50d2d0354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/38701e699f308bcb4a31702f3859c2dfd48d385f",
-                "reference": "38701e699f308bcb4a31702f3859c2dfd48d385f",
+                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/f6b3a5106b2a3f0ce036b1a49626dbc50d2d0354",
+                "reference": "f6b3a5106b2a3f0ce036b1a49626dbc50d2d0354",
                 "shasum": ""
             },
             "require": {
                 "illuminate/config": "^8.0",
-                "illuminate/database": "^8.0",
+                "illuminate/database": "^8.53",
                 "illuminate/support": "^8.0",
                 "php": "^8.0",
                 "spatie/laravel-package-tools": "^1.6.3"
@@ -7528,7 +7528,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-activitylog/issues",
-                "source": "https://github.com/spatie/laravel-activitylog/tree/4.1.1"
+                "source": "https://github.com/spatie/laravel-activitylog/tree/4.2.0"
             },
             "funding": [
                 {
@@ -7540,7 +7540,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-23T14:01:24+00:00"
+            "time": "2021-10-06T08:54:57+00:00"
         },
         {
             "name": "spatie/laravel-http-logger",
@@ -7609,24 +7609,24 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.9.0",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "cf4c4cec220575e2864c6082842d76822421f1b1"
+                "reference": "f710fe196c126fb9e0aee67eb5af49ad8f13f528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/cf4c4cec220575e2864c6082842d76822421f1b1",
-                "reference": "cf4c4cec220575e2864c6082842d76822421f1b1",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/f710fe196c126fb9e0aee67eb5af49ad8f13f528",
+                "reference": "f710fe196c126fb9e0aee67eb5af49ad8f13f528",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0|^8.0",
-                "mockery/mockery": "^1.4",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
+                "mockery/mockery": "^1.4",
                 "orchestra/testbench": "^5.0|^6.0",
                 "phpunit/phpunit": "^9.3",
                 "spatie/test-time": "^1.2"
@@ -7657,7 +7657,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.9.0"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.9.2"
             },
             "funding": [
                 {
@@ -7665,7 +7665,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-23T15:12:33+00:00"
+            "time": "2021-09-21T13:06:51+00:00"
         },
         {
             "name": "spatie/laravel-responsecache",
