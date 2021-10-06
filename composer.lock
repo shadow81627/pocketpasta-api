@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86aa4395afc2f5dcb1c71fcdc41ee3d4",
+    "content-hash": "19d0aaa22bce7a11cf8a9c59950be2ac",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7185,16 +7185,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.3.2",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "3d733139a3ba2d1d3a8011580e3acf0ba1d0dc9b"
+                "reference": "9a7b6d84ac8fa370397336028e760c71accac1dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/3d733139a3ba2d1d3a8011580e3acf0ba1d0dc9b",
-                "reference": "3d733139a3ba2d1d3a8011580e3acf0ba1d0dc9b",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/9a7b6d84ac8fa370397336028e760c71accac1dc",
+                "reference": "9a7b6d84ac8fa370397336028e760c71accac1dc",
                 "shasum": ""
             },
             "require": {
@@ -7273,7 +7273,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.3.2"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.3.3"
             },
             "funding": [
                 {
@@ -7285,20 +7285,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-07-19T08:09:34+00:00"
+            "time": "2021-10-04T11:20:34+00:00"
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "21dd07bdd2956e182ffde32d22872ce1a4b3eca9"
+                "reference": "3acb930f1abeb67046097c3912c7b4b9b4303f08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/21dd07bdd2956e182ffde32d22872ce1a4b3eca9",
-                "reference": "21dd07bdd2956e182ffde32d22872ce1a4b3eca9",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/3acb930f1abeb67046097c3912c7b4b9b4303f08",
+                "reference": "3acb930f1abeb67046097c3912c7b4b9b4303f08",
                 "shasum": ""
             },
             "require": {
@@ -7364,7 +7364,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-laravel/issues",
-                "source": "https://github.com/getsentry/sentry-laravel/tree/2.8.0"
+                "source": "https://github.com/getsentry/sentry-laravel/tree/2.9.0"
             },
             "funding": [
                 {
@@ -7376,7 +7376,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-08-08T09:03:08+00:00"
+            "time": "2021-10-06T13:08:08+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
@@ -8809,16 +8809,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.3.7",
+            "version": "v5.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "da8638ffecefc4e8ba2bc848d7b61a408119b333"
+                "reference": "c6370fe2c0a445aedc08f592a6a3149da1fea4c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/da8638ffecefc4e8ba2bc848d7b61a408119b333",
-                "reference": "da8638ffecefc4e8ba2bc848d7b61a408119b333",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/c6370fe2c0a445aedc08f592a6a3149da1fea4c7",
+                "reference": "c6370fe2c0a445aedc08f592a6a3149da1fea4c7",
                 "shasum": ""
             },
             "require": {
@@ -8876,7 +8876,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.3.7"
+                "source": "https://github.com/symfony/http-client/tree/v5.3.8"
             },
             "funding": [
                 {
@@ -8892,7 +8892,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-28T16:24:37+00:00"
+            "time": "2021-09-07T10:45:28+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
