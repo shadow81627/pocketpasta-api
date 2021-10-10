@@ -44,7 +44,7 @@
         "@tailwindcss/typography": "0.4.1",
         "@vue/compiler-sfc": "3.2.20",
         "autoprefixer": "10.3.7",
-        "laravel-mix": "6.0.31",
+        "laravel-mix": "6.0.32",
         "postcss": "8.3.9",
         "resolve-url-loader": "4.0.0",
         "tailwindcss": "2.2.16",
