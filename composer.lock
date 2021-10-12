@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba394c613194dfe713e41e63c7dd0631",
+    "content-hash": "7d228aca178258e893c49c6ebe581f65",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3747,16 +3747,16 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v2.11.2",
+            "version": "v2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "b21e65cbe13896946986cb0868180cd69e1bd5d3"
+                "reference": "5f0683417270fc033bc0fbf69e824cf58d33a623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/b21e65cbe13896946986cb0868180cd69e1bd5d3",
-                "reference": "b21e65cbe13896946986cb0868180cd69e1bd5d3",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/5f0683417270fc033bc0fbf69e824cf58d33a623",
+                "reference": "5f0683417270fc033bc0fbf69e824cf58d33a623",
                 "shasum": ""
             },
             "require": {
@@ -3807,7 +3807,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2021-06-15T15:56:21+00:00"
+            "time": "2021-10-12T15:50:15+00:00"
         },
         {
             "name": "laravel/scout",
