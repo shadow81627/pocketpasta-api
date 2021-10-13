@@ -30,7 +30,7 @@
         "@semantic-release/changelog": "6.0.0",
         "@semantic-release/git": "10.0.0",
         "@tailwindcss/ui": "0.7.2",
-        "axios": "0.22.0",
+        "axios": "0.23.0",
         "cross-env": "7.0.3",
         "laravel-jetstream": "1.2.0",
         "lodash": "4.17.21",
