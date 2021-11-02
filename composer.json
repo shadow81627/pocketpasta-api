@@ -21,7 +21,7 @@
         "laravel-json-api/laravel": "1.0.0",
         "laravel/framework": "8.69.0",
         "laravel/horizon": "5.7.15",
-        "laravel/jetstream": "2.4.3",
+        "laravel/jetstream": "2.4.4",
         "laravel/sanctum": "2.12.1",
         "laravel/scout": "9.3.1",
         "laravel/telescope": "4.6.5",
