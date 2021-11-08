@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a01d12f77408035d57d99d34af59c14c",
+    "content-hash": "d36bf08cb014533b6492af97071940b7",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7836,16 +7836,16 @@
         },
         {
             "name": "spatie/laravel-schemaless-attributes",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-schemaless-attributes.git",
-                "reference": "6a27ac49424106bc3dfe036b82c48b89b0f37707"
+                "reference": "f731d355642eb3697fe17972f08e8d66cd4bcb0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-schemaless-attributes/zipball/6a27ac49424106bc3dfe036b82c48b89b0f37707",
-                "reference": "6a27ac49424106bc3dfe036b82c48b89b0f37707",
+                "url": "https://api.github.com/repos/spatie/laravel-schemaless-attributes/zipball/f731d355642eb3697fe17972f08e8d66cd4bcb0c",
+                "reference": "f731d355642eb3697fe17972f08e8d66cd4bcb0c",
                 "shasum": ""
             },
             "require": {
@@ -7895,7 +7895,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-schemaless-attributes/issues",
-                "source": "https://github.com/spatie/laravel-schemaless-attributes/tree/2.0.1"
+                "source": "https://github.com/spatie/laravel-schemaless-attributes/tree/2.1.0"
             },
             "funding": [
                 {
@@ -7907,7 +7907,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-06T17:51:27+00:00"
+            "time": "2021-11-08T16:16:51+00:00"
         },
         {
             "name": "spatie/laravel-sluggable",
