@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac2b2da932d89aac879c0f236bd9373d",
+    "content-hash": "e3734bfac8aaef793c8504f32301bf04",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7973,20 +7973,20 @@
         },
         {
             "name": "spatie/laravel-tags",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-tags.git",
-                "reference": "b6ae5f9fdc323296509f486c81e7abbd14e85563"
+                "reference": "fe4d3791eeb1a55d1943093c0e025876d68c5b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/b6ae5f9fdc323296509f486c81e7abbd14e85563",
-                "reference": "b6ae5f9fdc323296509f486c81e7abbd14e85563",
+                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/fe4d3791eeb1a55d1943093c0e025876d68c5b09",
+                "reference": "fe4d3791eeb1a55d1943093c0e025876d68c5b09",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^8.12",
+                "laravel/framework": "^8.67",
                 "php": "^8.0",
                 "spatie/eloquent-sortable": "^3.10|^4.0",
                 "spatie/laravel-package-tools": "^1.4",
@@ -8029,7 +8029,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-tags/issues",
-                "source": "https://github.com/spatie/laravel-tags/tree/4.0.4"
+                "source": "https://github.com/spatie/laravel-tags/tree/4.0.5"
             },
             "funding": [
                 {
@@ -8037,7 +8037,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-01T08:50:15+00:00"
+            "time": "2021-11-10T15:54:48+00:00"
         },
         {
             "name": "spatie/laravel-translatable",
