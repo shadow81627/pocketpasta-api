@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38d844666b2d38ac83bc95b806b6a8b1",
+    "content-hash": "3ac4b0441fb3c946f5e86b5648572b43",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7372,16 +7372,16 @@
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "951bc0d5191a7fb4c052818367c1168cb3665efb"
+                "reference": "96643ed6c59db61dc9a629766ccc8b5293416ae0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/951bc0d5191a7fb4c052818367c1168cb3665efb",
-                "reference": "951bc0d5191a7fb4c052818367c1168cb3665efb",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/96643ed6c59db61dc9a629766ccc8b5293416ae0",
+                "reference": "96643ed6c59db61dc9a629766ccc8b5293416ae0",
                 "shasum": ""
             },
             "require": {
@@ -7447,7 +7447,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-laravel/issues",
-                "source": "https://github.com/getsentry/sentry-laravel/tree/2.10.0"
+                "source": "https://github.com/getsentry/sentry-laravel/tree/2.10.1"
             },
             "funding": [
                 {
@@ -7459,7 +7459,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-11-11T10:14:42+00:00"
+            "time": "2021-11-11T20:08:08+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
