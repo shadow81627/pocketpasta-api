@@ -27,7 +27,7 @@
         "laravel/telescope": "4.6.7",
         "laravel/tinker": "2.6.2",
         "maatwebsite/excel": "3.1.33",
-        "meilisearch/meilisearch-php": "0.19.2",
+        "meilisearch/meilisearch-php": "0.19.3",
         "sentry/sentry-laravel": "2.10.1",
         "spatie/eloquent-sortable": "4.0.0",
         "spatie/laravel-activitylog": "4.3.1",
