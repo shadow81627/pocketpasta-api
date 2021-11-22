@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a7ffe5e765329fee00753349de4500e",
+    "content-hash": "7fabd3373d631e9a81134c54cc8a1b44",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7973,16 +7973,16 @@
         },
         {
             "name": "spatie/laravel-tags",
-            "version": "4.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-tags.git",
-                "reference": "116412ec1ef81808ea61f0e01ba9ddc8a7fe11c6"
+                "reference": "40db65d21cd7d72c8734f640262476ccf6328688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/116412ec1ef81808ea61f0e01ba9ddc8a7fe11c6",
-                "reference": "116412ec1ef81808ea61f0e01ba9ddc8a7fe11c6",
+                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/40db65d21cd7d72c8734f640262476ccf6328688",
+                "reference": "40db65d21cd7d72c8734f640262476ccf6328688",
                 "shasum": ""
             },
             "require": {
@@ -8029,7 +8029,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-tags/issues",
-                "source": "https://github.com/spatie/laravel-tags/tree/4.1.0"
+                "source": "https://github.com/spatie/laravel-tags/tree/4.2.0"
             },
             "funding": [
                 {
@@ -8037,7 +8037,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-17T10:12:09+00:00"
+            "time": "2021-11-22T07:46:42+00:00"
         },
         {
             "name": "spatie/laravel-translatable",
