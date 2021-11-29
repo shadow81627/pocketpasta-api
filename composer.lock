@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff735d50edd17588f42cd35963b8f204",
+    "content-hash": "94280426b1861a43d1b135236d374370",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7619,16 +7619,16 @@
         },
         {
             "name": "spatie/laravel-http-logger",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-http-logger.git",
-                "reference": "ad267ee0f1baf5cab9d5254bf8c3b43384affd01"
+                "reference": "1f4ce07889c2df5a8796ead157129e39afa7ade7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-http-logger/zipball/ad267ee0f1baf5cab9d5254bf8c3b43384affd01",
-                "reference": "ad267ee0f1baf5cab9d5254bf8c3b43384affd01",
+                "url": "https://api.github.com/repos/spatie/laravel-http-logger/zipball/1f4ce07889c2df5a8796ead157129e39afa7ade7",
+                "reference": "1f4ce07889c2df5a8796ead157129e39afa7ade7",
                 "shasum": ""
             },
             "require": {
@@ -7672,7 +7672,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-http-logger/issues",
-                "source": "https://github.com/spatie/laravel-http-logger/tree/1.7.0"
+                "source": "https://github.com/spatie/laravel-http-logger/tree/1.8.0"
             },
             "funding": [
                 {
@@ -7680,7 +7680,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-01-04T08:14:32+00:00"
+            "time": "2021-11-29T15:21:46+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
