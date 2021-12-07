@@ -24,7 +24,7 @@
         "laravel/jetstream": "2.4.4",
         "laravel/sanctum": "2.12.2",
         "laravel/scout": "9.3.2",
-        "laravel/telescope": "4.6.8",
+        "laravel/telescope": "4.6.9",
         "laravel/tinker": "2.6.2",
         "maatwebsite/excel": "3.1.34",
         "meilisearch/meilisearch-php": "0.20.0",
