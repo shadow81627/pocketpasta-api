@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "850d02b85408cdc1da844682c04575bc",
+    "content-hash": "49f85039b8cf6a601a14c0335874dc78",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -8169,16 +8169,16 @@
         },
         {
             "name": "staudenmeir/eloquent-has-many-deep",
-            "version": "v1.14.3",
+            "version": "v1.14.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/staudenmeir/eloquent-has-many-deep.git",
-                "reference": "c44115684aa831b2b74fec8440f6e811602186ed"
+                "reference": "b121fdb50ca3e0a4b884f97dd19af68d1e73bbff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/staudenmeir/eloquent-has-many-deep/zipball/c44115684aa831b2b74fec8440f6e811602186ed",
-                "reference": "c44115684aa831b2b74fec8440f6e811602186ed",
+                "url": "https://api.github.com/repos/staudenmeir/eloquent-has-many-deep/zipball/b121fdb50ca3e0a4b884f97dd19af68d1e73bbff",
+                "reference": "b121fdb50ca3e0a4b884f97dd19af68d1e73bbff",
                 "shasum": ""
             },
             "require": {
@@ -8187,9 +8187,7 @@
             },
             "require-dev": {
                 "illuminate/pagination": "^8.0",
-                "laravel/homestead": "^11.0|^12.0",
                 "phpunit/phpunit": "^9.3",
-                "scrutinizer/ocular": "^1.8",
                 "staudenmeir/eloquent-eager-limit": "^1.6"
             },
             "type": "library",
@@ -8211,7 +8209,7 @@
             "description": "Laravel Eloquent HasManyThrough relationships with unlimited levels",
             "support": {
                 "issues": "https://github.com/staudenmeir/eloquent-has-many-deep/issues",
-                "source": "https://github.com/staudenmeir/eloquent-has-many-deep/tree/v1.14.3"
+                "source": "https://github.com/staudenmeir/eloquent-has-many-deep/tree/v1.14.4"
             },
             "funding": [
                 {
@@ -8219,7 +8217,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-08-21T16:45:45+00:00"
+            "time": "2021-12-07T11:59:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
