@@ -18,7 +18,7 @@
         "fruitcake/laravel-cors": "2.0.4",
         "guzzlehttp/guzzle": "7.4.1",
         "inertiajs/inertia-laravel": "0.4.5",
-        "laravel-json-api/laravel": "1.0.0",
+        "laravel-json-api/laravel": "1.0.1",
         "laravel/framework": "8.75.0",
         "laravel/horizon": "5.7.17",
         "laravel/jetstream": "2.4.4",
