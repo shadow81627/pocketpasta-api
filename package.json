@@ -49,7 +49,7 @@
         "resolve-url-loader": "4.0.0",
         "tailwindcss": "2.2.19",
         "vue": "3.2.26",
-        "vue-loader": "16.8.3",
+        "vue-loader": "17.0.0",
         "vue-template-compiler": "2.6.14"
     }
 }
