@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8afb029972e50560b0648617220bfc78",
+    "content-hash": "ee38c5b18bf94dbc09ce96310244f8db",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -7902,28 +7902,27 @@
         },
         {
             "name": "spatie/laravel-sluggable",
-            "version": "3.1.0",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sluggable.git",
-                "reference": "03dd6b573efb66f2eb96892b3646a6a8b7722adf"
+                "reference": "a44afe6f317959bcfdadcec3148486859fd5c1f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sluggable/zipball/03dd6b573efb66f2eb96892b3646a6a8b7722adf",
-                "reference": "03dd6b573efb66f2eb96892b3646a6a8b7722adf",
+                "url": "https://api.github.com/repos/spatie/laravel-sluggable/zipball/a44afe6f317959bcfdadcec3148486859fd5c1f5",
+                "reference": "a44afe6f317959bcfdadcec3148486859fd5c1f5",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "^7.30|^8.0",
-                "illuminate/support": "^7.30|^8.0",
+                "illuminate/database": "^8.0|^9.0|^10.0|^11.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.18",
-                "orchestra/testbench": "^5.16|^6.11",
-                "phpunit/phpunit": "^9.5.1",
-                "spatie/laravel-translatable": "^4.6"
+                "orchestra/testbench": "^6.23|^7.0|^8.0|^9.0",
+                "pestphp/pest": "^1.20|^2.0",
+                "spatie/laravel-translatable": "^5.0|^6.0"
             },
             "type": "library",
             "autoload": {
@@ -7950,8 +7949,7 @@
                 "spatie"
             ],
             "support": {
-                "issues": "https://github.com/spatie/laravel-sluggable/issues",
-                "source": "https://github.com/spatie/laravel-sluggable/tree/3.1.0"
+                "source": "https://github.com/spatie/laravel-sluggable/tree/3.6.0"
             },
             "funding": [
                 {
@@ -7959,7 +7957,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-04T13:53:45+00:00"
+            "time": "2024-02-26T08:33:29+00:00"
         },
         {
             "name": "spatie/laravel-tags",
@@ -15671,5 +15669,5 @@
         "ext-redis": "5.3.*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }
