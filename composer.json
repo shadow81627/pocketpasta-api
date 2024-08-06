@@ -16,7 +16,7 @@
         "enlightn/enlightn": "1.22.1",
         "fideloper/proxy": "4.4.1",
         "fruitcake/laravel-cors": "2.0.4",
-        "guzzlehttp/guzzle": "7.4.1",
+        "guzzlehttp/guzzle": "7.4.5",
         "inertiajs/inertia-laravel": "0.4.5",
         "laravel-json-api/laravel": "1.0.1",
         "laravel/framework": "8.75.0",
